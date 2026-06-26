@@ -73,9 +73,14 @@ boitier-controle-niryo/
 │   ├── coque.step
 │   ├── assemblage.step
 │   └── renders/
-│       ├── vue_iso.png
-│       ├── vue_dessus.png
-│       └── vue_interieure.png
+│       ├── Intérieur du boitier 1.png
+│       ├── Intérieur du boitier 2.png
+│       └── vue_d'en_haut.png
+│       └── vue_d'en_bas.png
+│       └── vue_d'ensemble1.png
+│       └── vue_d'ensemble2.png
+
+        
 ├── plans/
 │   └── plan_coque.PDF
 └── README.md
@@ -87,8 +92,8 @@ boitier-controle-niryo/
 
 | Vue isométrique | Vue intérieure |
 |---|---|
-| *(renders/vue_iso.png)* | *(renders/vue_interieure.png)* |
-
+| *(renders/vue_d'ensemble1.png)* | *(renders/Intérieur du boitier 1.png)* |
+| *(renders/vue_d'ensemble2.png)* | *(renders/Intérieur du boitier 2.png)* |
 ---
 
 ## Outils utilisés
