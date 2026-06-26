@@ -13,7 +13,7 @@ Le projet couvre la modélisation de chaque pièce constitutive du robot ainsi q
 
 ## Aperçu
 
-![Assemblage complet du bras robot 6 axes](renders/assemblage_complet.png)
+![Assemblage complet du bras robot 6 axes](renders/robot_cao.JPG)
 
 ---
 
