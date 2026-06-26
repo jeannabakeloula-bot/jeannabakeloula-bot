@@ -78,9 +78,7 @@ boitier-controle-niryo/
 │       └── vue_d'en_haut.png
 │       └── vue_d'en_bas.png
 │       └── vue_d'ensemble1.png
-│       └── vue_d'ensemble2.png
-
-        
+│       └── vue_d'ensemble2.png        
 ├── plans/
 │   └── plan_coque.PDF
 └── README.md
