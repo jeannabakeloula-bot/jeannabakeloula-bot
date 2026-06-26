@@ -90,8 +90,8 @@ boitier-controle-niryo/
 
 | Vue isométrique | Vue intérieure |
 |---|---|
-| ![Vue isométrique du boîtier](exports/renders/vue_d'ensemble1.png) | ![Vue intérieure du boîtier](exports/renders/Intérieur du boitier 1.png)|
-| ![Vue isométrique du boîtier](exports/renders/vue_d'ensemble2.png)|![Vue intérieure du boîtier](exports/renders/Intérieur du boitier 2.png)|
+| ![Vue isométrique du boîtier](exports/renders/vue_d'ensemble1.png) | ![Vue intérieure du boîtier](exports/renders/Intérieur_du_boitier_1.png)|
+| ![Vue isométrique du boîtier](exports/renders/vue_d'ensemble2.png)|![Vue intérieure du boîtier](exports/renders/Intérieur_du_boitier_2.png)|
 ---
 
 ## Outils utilisés
