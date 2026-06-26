@@ -22,7 +22,7 @@ Le projet couvre la modélisation de chaque pièce constitutive du robot ainsi q
 | Pièce | Aperçu | Fonctions SolidWorks utilisées |
 |---|---|---|
 | Base | ![Base](renders/BASE_DU_ROBOT.png) | Boss-Extrusion, Chanfrein, Symétrie, Répétition circulaire |
-| Épaule (Lien 1) | ![Lien 1](renders/lien_1_du_bras.png) | Boss-Extrusion, Lissage, Enlèvement matière, Répétition circulaire |
+| Épaule (Lien 1) | ![Lien 1](renders/lien_1_du_bras.JPG) | Boss-Extrusion, Lissage, Enlèvement matière, Répétition circulaire |
 | Bras (Lien 2) | ![Lien 2](renders/lien_2_du_bras.png) | Boss-Extrusion, Lissage, Enlèvement matière, Dôme, Congé |
 | Base pince | ![Base pince](renders/BASE_PINCE.png) | Révolution, Boss-Extrusion, Répétition circulaire |
 | Mors pince | ![Mors pince](renders/mords_pince.png) | Boss-Extrusion, Enlèvement matière, Répétition linéaire, Symétrie |
