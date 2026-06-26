@@ -73,8 +73,8 @@ boitier-controle-niryo/
 │   ├── coque.step
 │   ├── assemblage.step
 │   └── renders/
-│       ├── Intérieur du boitier 1.png
-│       ├── Intérieur du boitier 2.png
+│       ├── Intérieur_du_boitier_1.png
+│       ├── Intérieur du boitier_2.png
 │       └── vue_d'en_haut.png
 │       └── vue_d'en_bas.png
 │       └── vue_d'ensemble1.png
