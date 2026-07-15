@@ -1,4 +1,4 @@
-# Cellule de dépalettisation robotisée — RoboDK
+# Cellule de dépalettisation robotisée - RoboDK
 
 **Simulation d'une cellule industrielle de dépalettisation automatique** : un robot Doosan M1013 monté sur rail linéaire prélève des cartons sur une palette à 3 étages et les dépose sur un convoyeur, à l'aide d'un préhenseur à ventouse.
 
@@ -63,7 +63,7 @@ Schéma détaillé : `media/architecture.svg`
 | Convoyeur | Convoyeur générique | Point de dépose référencé `AppConveyor` / `Conveyor` |
 | Logiciel | RoboDK | Simulation, définition des repères/TCP, programmation par cibles, export post-processeur |
 
-Le M1013 communique nativement en RS232/485, TCP/IP, Modbus TCP/RTU, PROFINET IO Device et EtherNet/IP — pertinent pour une intégration réelle avec un automate de ligne.
+Le M1013 communique nativement en RS232/485, TCP/IP, Modbus TCP/RTU, PROFINET IO Device et EtherNet/IP - pertinent pour une intégration réelle avec un automate de ligne.
 
 ## Méthodologie
 
