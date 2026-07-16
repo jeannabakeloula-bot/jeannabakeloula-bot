@@ -29,8 +29,6 @@ Ce projet reproduit cette problématique en simulation, avec l'objectif de démo
 - [Matériel & logiciel](#matériel--logiciel)
 - [Méthodologie](#méthodologie)
 - [Structure du programme](#structure-du-programme)
-- [Algorithme](#algorithme)
-- [Choix techniques et compromis](#choix-techniques-et-compromis)
 - [Limites de la simulation](#limites-de-la-simulation)
 - [Transposition vers un logiciel constructeur](#transposition-vers-un-logiciel-constructeur)
 - [Compétences démontrées](#compétences-démontrées)
