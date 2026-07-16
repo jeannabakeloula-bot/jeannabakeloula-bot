@@ -76,7 +76,7 @@ Le M1013 communique nativement en RS232/485, TCP/IP, Modbus TCP/RTU, PROFINET IO
 | `Pallet` | Référence locale pour générer les positions des cartons à depallétiser |
 | `Conveyor Belt` | Référence locale pour la dépose |
 
-Travailler en repères relatifs plutôt qu'en coordonnées absolues afin que si la palette ou le convoyeur est redéfini physiquement (recalibrage, déplacement), seul le repère parent est corrigé pas les dizaines de points qui en dépendent.
+J'ai travaillé en repères relatifs plutôt qu'en coordonnées absolues afin que si la palette ou le convoyeur est redéfini physiquement (recalibrage, déplacement), seul le repère parent est corrigé pas les dizaines de points qui en dépendent.
 
 ### TCP (Tool Center Point)
 
