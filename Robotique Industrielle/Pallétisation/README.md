@@ -13,7 +13,7 @@
 
 La dépalettisation est une des tâches les plus courantes en logistique et en industrie manufacturière : réception de palettes fournisseur, préparation de commandes, alimentation de lignes de production. C'est aussi un excellent cas d'école en robotique parce qu'elle combine plusieurs problématiques classiques en une seule cellule : gestion de repères multiples, trajectoires répétitives à grande échelle (jusqu'à plusieurs dizaines de points), intégration d'un axe externe, et coordination avec un convoyeur.
 
-Ce projet reproduit cette problématique en simulation, avec l'objectif de démontrer une méthodologie de programmation robot — indépendamment du langage constructeur final (VAL3, DRL, KRL, RAPID...).
+Ce projet reproduit cette problématique en simulation, avec l'objectif de démontrer une méthodologie de programmation robot - indépendamment du langage constructeur final (VAL3, DRL, KRL, RAPID...).
 
 ## Objectif
 
