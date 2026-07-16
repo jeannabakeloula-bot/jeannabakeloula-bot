@@ -92,20 +92,11 @@ Schéma détaillé : `media/reperes.svg`
 
 ![Démo](media/grafcet_depalettisation.png)
 
-## Choix techniques et compromis
-
-Quelques décisions de conception qui méritent d'être justifiées plutôt que simplement énoncées :
-
-- **MoveJ plutôt que MoveL sur les trajectoires d'approche** : privilégié pour la vitesse de cycle, au prix d'une trajectoire moins prévisible géométriquement. Sur un vrai robot, ce choix serait validé par simulation de collision avant déploiement.
-- **Grille de points paramétrée par le repère `Pallet` plutôt que 27 points enseignés manuellement** : réduit drastiquement le temps de programmation et facilite le changement de configuration de palette (nombre de cartons, dimensions), au prix d'une dépendance plus forte à la précision du repère parent.
-- **Axe externe (rail) plutôt que repositionnement de la base robot** : permet de couvrir à la fois la palette et le convoyeur avec une seule cellule, sans dupliquer le robot — compromis classique coût/encombrement vs flexibilité de portée.
-- **Une ventouse plutôt qu'une pince mécanique** : adaptée à la manutention de cartons (surface plane, pas de préhension par les bords), mais dépendante de l'état de surface du carton (poussière, carton froissé) en conditions réelles.
-
 ## Limites de la simulation
 
 Un point important pour rester honnête sur la portée du projet :
 
-- Positions des cartons supposées connues et fixes — aucune vision industrielle ni bin-picking dynamique
+- Positions des cartons supposées connues et fixes - aucune vision industrielle ni bin-picking dynamique
 - Pas de validation de collision physique réelle (uniquement la détection RoboDK)
 - Pas d'intégration à un automate ou à une supervision de ligne réelle
 - Temps de cycle non mesuré/optimisé sur robot physique (accélérations, zones de lissage non calibrées pour du matériel réel)
@@ -113,7 +104,7 @@ Un point important pour rester honnête sur la portée du projet :
 
 ## Transposition vers un logiciel constructeur
 
-RoboDK est un outil de simulation et de programmation hors-ligne (OLP), pas un langage constructeur. Ce qui est directement transférable vers un environnement réel (Stäubli VAL3, Doosan DRL, Fanuc TP, KUKA KRL, ABB RAPID...) :
+RoboDK est un outil de simulation et de programmation hors-ligne, pas un langage constructeur. Ce qui est directement transférable vers un environnement réel (Stäubli VAL3, Doosan DRL, Fanuc TP, KUKA KRL, ABB RAPID...) :
 
 - La logique de repères (`World`/`Tool`/repères locaux)
 - La définition et la justification du TCP
@@ -130,7 +121,6 @@ Ce qui change en environnement réel : la syntaxe du constructeur, le calibrage 
 - Conception de trajectoires sécurisées (points d'approche, anti-collision)
 - Structuration modulaire d'un programme robot
 - Intégration d'un axe externe (7e axe)
-- Capacité à documenter des choix techniques et leurs compromis
 - Transposition d'une méthodologie de simulation vers un environnement constructeur réel
 
 ## Pistes d'amélioration
@@ -142,7 +132,7 @@ Ce qui change en environnement réel : la syntaxe du constructeur, le calibrage 
 
 ## Reproduire le projet
 
-1. Installer [RoboDK](https://robodk.com/download) (version utilisée : à préciser)
+1. Installer [RoboDK](https://robodk.com/download)
 2. Ouvrir le fichier `.rdk` du projet
 3. Lancer `MainProgram` depuis l'arborescence du projet pour exécuter le cycle complet
 
