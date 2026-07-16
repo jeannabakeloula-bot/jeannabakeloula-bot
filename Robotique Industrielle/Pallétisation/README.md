@@ -40,15 +40,7 @@ Ce projet reproduit cette problématique en simulation, avec l'objectif de démo
 
 ## Architecture
 
-```
-Palette (3 étages de cartons)
-        ↓
-Robot Doosan M1013 — monté sur rail linéaire (axe externe)
-        ↓
-Préhenseur à ventouse
-        ↓
-Convoyeur (dépose)
-```
+ !(media/architecture_cellule.png)
 
 Schéma détaillé : `media/architecture.png`
 
