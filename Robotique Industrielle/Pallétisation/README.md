@@ -42,8 +42,6 @@ Ce projet reproduit cette problématique en simulation, avec l'objectif de démo
 
 ![Démo](media/architecture_cellule.png)
 
-Schéma détaillé : `media/architecture.png`
-
 ## Matériel & logiciel
 
 | Élément | Référence | Caractéristiques |
