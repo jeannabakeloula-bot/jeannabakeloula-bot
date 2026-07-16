@@ -50,7 +50,7 @@ Préhenseur à ventouse
 Convoyeur (dépose)
 ```
 
-Schéma détaillé : `media/architecture.svg`
+Schéma détaillé : `media/architecture.png`
 
 ## Matériel & logiciel
 
