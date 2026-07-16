@@ -89,6 +89,7 @@ Les points d'approche ne sont pas une redondance — ils remplissent quatre fonc
 Schéma détaillé : `media/reperes.svg`
 
 ## Structure du programme
+
 ![Démo](media/grafcet_depalettisation.png)
 
 ## Choix techniques et compromis
