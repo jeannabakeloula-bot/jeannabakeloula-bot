@@ -139,7 +139,8 @@ Ce qui change en environnement réel : la syntaxe du constructeur, le calibrage 
 ```
 depalletizing-cell/
 ├── README.md
-├── project.rdk
+├── Pick Plaque.rdk
+├── Station Basic Pick Box.rdk
 ├── media/
 │   ├── demo.gif
 │   ├── architecture.svg
@@ -153,4 +154,4 @@ Ce projet fait partie d'un ensemble de 3 cellules robotisées simulées sous Rob
 
 ---
 
-*Projet réalisé sous RoboDK — simulation à but d'apprentissage et de démonstration de méthodologie.*
+*Projet réalisé sous RoboDK - simulation à but d'apprentissage et de démonstration de méthodologie.*
