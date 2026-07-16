@@ -58,8 +58,8 @@ Schéma détaillé : `media/architecture.svg`
 |---|---|---|
 | Robot | Doosan Robotics M1013 (série M, cobot 6 axes) | Charge utile 10 kg, portée max. 1300 mm, répétabilité ±0,05 mm, vitesse TCP 1 m/s |
 | Axe externe | Rail linéaire (7e axe) | Étend l'espace de travail le long de la palette et du convoyeur |
-| Préhenseur | Ventouse | Attache/détache logiquement le carton (`Pick` / `DropConveyor`) |
-| Palette | Palette 3 étages | Cartons référencés `T_Box_1_1` … `T_Box_3_2`, repère local `Pallet` |
+| Préhenseur | Ventouse | Attache/détache des objets (`cartons`)|
+| Palette | Palette Modèle 1200*800 | 3 Etages de 9 Cartons référencés `T_Box_1_1` … `T_Box_3_2`, repère local `Pallet` |
 | Convoyeur | Convoyeur générique | Point de dépose référencé `AppConveyor` / `Conveyor` |
 | Logiciel | RoboDK | Simulation, définition des repères/TCP, programmation par cibles, export post-processeur |
 
