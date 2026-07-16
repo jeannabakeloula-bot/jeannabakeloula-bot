@@ -73,7 +73,7 @@ Le M1013 communique nativement en RS232/485, TCP/IP, Modbus TCP/RTU, PROFINET IO
 |---|---|
 | `World` | Référence absolue de la cellule |
 | `Tool` | Repère lié au TCP de la ventouse, solidaire de la bride |
-| `Pallet` | Référence locale pour générer les points en grille (ligne/colonne/étage) |
+| `Pallet` | Référence locale pour générer les positions des cartons à depallétiser |
 | `Conveyor Belt` | Référence locale pour la dépose |
 
 Travailler en repères relatifs plutôt qu'en coordonnées absolues afin que si la palette ou le convoyeur est redéfini physiquement (recalibrage, déplacement), seul le repère parent est corrigé pas les dizaines de points qui en dépendent.
