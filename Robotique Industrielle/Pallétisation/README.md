@@ -4,7 +4,7 @@
 
 ![status](https://img.shields.io/badge/status-simulation-blue) ![tool](https://img.shields.io/badge/tool-RoboDK-orange) ![robot](https://img.shields.io/badge/robot-Doosan%20M1013-informational)
 
-![Démo](media/demo.gif)
+![Démo](media/demo.mp4)
 <!-- GIF 10-15s en boucle du cycle complet -->
 
 ---
