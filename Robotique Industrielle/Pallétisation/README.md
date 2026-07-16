@@ -40,7 +40,7 @@ Ce projet reproduit cette problématique en simulation, avec l'objectif de démo
 
 ## Architecture
 
- !(media/architecture_cellule.png)
+![Démo](media/architecture_cellule.png)
 
 Schéma détaillé : `media/architecture.png`
 
