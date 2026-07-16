@@ -77,7 +77,7 @@ Le TCP est défini au point de contact ventouse: toute orientation et toute traj
 Chaque cycle de prise suit systématiquement le même schéma :
 
 ```
-Approche (retrait sécurisé) → Pick → Approche → Approche convoyeur → Drop → Approche
+Approche → Pick → Approche(retrait sécurisé) → Approche convoyeur → Drop → Approche (retrait sécurisé)
 ```
 
 Les points d'approche ne sont pas une redondance — ils remplissent quatre fonctions précises :
@@ -89,49 +89,7 @@ Les points d'approche ne sont pas une redondance — ils remplissent quatre fonc
 Schéma détaillé : `media/reperes.svg`
 
 ## Structure du programme
-
-```
-MainProgram
-   ├── Call GoHome
-   ├── Call ReplaceObjects
-   ├── Pause 10.0 s
-   ├── Call RunConveyor
-   ├── Pour chaque carton :
-   │     ├── Set Ref: Pallet
-   │     ├── MoveJ (T_Box_x)
-   │     ├── Call Pick
-   │     ├── Call AppPallet
-   │     ├── Call DropConveyor
-   │     └── Call AppPallet
-   └── Call GoHome
-```
-
-| Sous-programme | Rôle |
-|---|---|
-| `GoHome` | Retour position de repos, repère `World`, changement d'outil |
-| `Pick` | Attache logique du carton (activation ventouse) |
-| `AppPallet` | Point d'approche palette avant/après prise |
-| `DropConveyor` | Approche, dépose, détachement, retrait sur le convoyeur |
-| `RunConveyor` | Démarrage du convoyeur |
-
-Schéma détaillé : `media/flux-programme.svg`
-
-## Algorithme
-
-```
-Début
-  ↓
-Home
-  ↓
-Démarrage convoyeur
-  ↓
-Pour chaque carton (étage 1 → 3) :
-    Approche palette → Pick → Retour → Approche convoyeur → Drop → Retour
-  ↓
-Home
-  ↓
-Fin
-```
+![Démo](media/grafcet_depalettisation.png)
 
 ## Choix techniques et compromis
 
