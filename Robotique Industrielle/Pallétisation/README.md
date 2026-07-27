@@ -1,4 +1,4 @@
-# Cellule de dépalettisation robotisée - RoboDK
+# Industrial Depalletizing Cell - Offline Robot Programming
 
 **Simulation d'une cellule industrielle de dépalettisation automatique** : un robot Doosan M1013 monté sur rail linéaire prélève des cartons sur une palette à 3 étages et les dépose sur un convoyeur, à l'aide d'un préhenseur à ventouse.
 
