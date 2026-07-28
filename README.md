@@ -274,7 +274,7 @@ Missions principales :
 </td>
 <td width="45%" valign="top">
 <div align="center">
-  <img src="Im/ga_individu_gene.svg" alt="Modélisation individu/gène" width="100%">
+  <img src="Im/ga_individu_gene.svg" alt="Modélisation individu/gène" width="120%">
 </div>
 </td>
 </tr>
@@ -286,7 +286,7 @@ Missions principales :
 <tr>
 <td width="45%" valign="top">
 <div align="center">
-  <img src="Im/ga_boucle_optimisation.svg" alt="Boucle d'optimisation génétique" width="100%">
+  <img src="Im/ga_boucle_optimisation.svg" alt="Boucle d'optimisation génétique" width="120%">
 </div>
 </td>
 <td width="55%" valign="top">
@@ -319,7 +319,7 @@ Missions principales :
 </td>
 <td width="45%" valign="top">
 <div align="center">
-  <img src="Im/architecture_api.svg" alt="Architecture applicative" width="100%">
+  <img src="Im/architecture_api.svg" alt="Architecture applicative" width="120%">
 </div>
 </td>
 </tr>
