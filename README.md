@@ -271,7 +271,7 @@ Cette approche globale guide chacun de mes projets.
   <a href="https://www.linkedin.com/in/eunice-bakeloula-443027224" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin" alt="LinkedIn">
   </a>
-  <a href="assets/cv.pdf" target="_blank" rel="noopener noreferrer">
+  <a href="assets/CV_Eunice_BAKELOULA_Roboticien.pdf" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/CV-PDF-red" alt="CV">
   <a href="tel:+33658628346">
     <img src="https://img.shields.io/badge/Téléphone-Appeler-green" alt="Téléphone">
