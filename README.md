@@ -217,21 +217,45 @@ Missions principales :
 
 <hr>
 
-## 🤖 Stagiaire Ingénieure Automatisation & Robotique
+<h2>🤖 Stagiaire Ingénieure Automatisation & Robotique</h2>
 
-**Syensqo**
+<table>
+<tr>
+<td width="55%" valign="top">
 
-Développement d’une plateforme robotisée automatisée de préparation d’échantillons (cobot UR3e).
+<p><strong>Syensqo</strong></p>
 
-Missions principales :
+<p>Développement d’une plateforme robotisée automatisée de préparation d’échantillons (cobot UR3e).</p>
 
-- Robotique collaborative
-- Programmation robot UR3
-- Conception sous SolidWorks de pièces de fixation des instruments (balance, vortex, pipette) pour la reproductibilité des trajectoires et programmation du robot en Python POO
-- Automatisation de procédés en laboratoire
+<p>Missions principales :</p>
 
----
+<ul>
+  >Robotique collaborative</li>
+  >Programmation robot UR3</li>
+  >Conception sous SolidWorks de pièces de fixation des instruments (balance, vortex, pipette) pour la reproductibilité des trajectoires et programmation du robot en Python POO</li>
+  >Automatisation de procédés en laboratoire</li>
+</ul>
 
+<p align="center">
+  <a href="LIEN_VERS_TON_PROJET_OU_SECTION" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github" alt="Voir le projet">
+  </a>
+</p>
+
+</td>
+
+<td width="45%" valign="top" align="center">
+
+<video autoplay loop muted playsinline controls width="100%">
+  <source src="Im/demo/demo%20stage.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la vidéo.
+</video>
+
+</td>
+</tr>
+</table>
+
+<hr>
 # 🧠 Intelligence artificielle & optimisation industrielle
 
 ## Optimisation de procédés industriels par algorithmes génétiques
