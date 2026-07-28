@@ -179,26 +179,51 @@ Missions principales :
 
 ---
 
-## 👁️ Pick & Place guidé par vision
+<h2>👁️ Paletisation sous RobotGuide</h2>
 
-Application industrielle de prise et dépose utilisant :
+<table>
+<tr>
+<td width="55%" valign="top">
 
-- Robot Stäubli TX2-40
-- Caméra SensoPart
+<p>Application industrielle de prise et dépose utilisant :</p>
 
-Principaux éléments étudiés :
+<ul>
+  <li>Robot Stäubli TX2-40</li>
+  <li>Caméra SensoPart</li>
+</ul>
 
-- Calibration caméra
-- Détection d'objet
-- Intégration robot-vision
-- Prise et dépose automatisée (*Pick & Place*)
-- Transformation de coordonnées
+<p>Principaux éléments étudiés :</p>
 
-🎥 Vidéo de démonstration disponible
+<ul>
+  <li>Calibration caméra</li>
+  <li>Détection d'objet</li>
+  <li>Intégration robot-vision</li>
+  <li>Prise et dépose automatisée (<em>Pick &amp; Place</em>)</li>
+  <li>Transformation de coordonnées</li>
+</ul>
 
-*(Dépôt GitHub prochainement)*
+<p align="center">
+  <a href="LIEN_VERS_TON_PROJET" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github" alt="Voir le projet">
+  </a>
+</p>
 
----
+<p><em>Dépôt GitHub prochainement</em></p>
+
+</td>
+
+<td width="45%" valign="top" align="center">
+
+<video autoplay loop muted playsinline controls width="100%">
+  <source src="Im/demo/demo_projetTX240.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la vidéo.
+</video>
+
+</td>
+</tr>
+</table>
+
+<hr>
 
 ## 🤖 Stagiaire Ingénieure Automatisation & Robotique
 
