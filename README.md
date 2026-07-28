@@ -2,9 +2,11 @@
 
 # 👋 Bonjour, je suis Eunice Bakeloula
 
-### Ingénieure en Automatisation & Robotique  
+### Ingénieure en Automatisation & Robotique
 
 *Concevoir des systèmes robotiques intelligents pour l'industrie de demain.*
+
+</div>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://linkedin.com/in/...)
 [![CV](https://img.shields.io/badge/CV-PDF-red)](...)
