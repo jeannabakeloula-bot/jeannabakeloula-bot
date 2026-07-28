@@ -264,10 +264,9 @@ Cette approche globale guide chacun de mes projets.
 
 # 📬 Restons connectés
 
-📧 Email
+# 📫 Restons connectés
 
-💼 LinkedIn
-
-📄 CV
-
-⭐ GitHub
+- 📧 [jeannabakeloula@gmail.com](mailto:jeannabakeloula@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/eunice-bakeloula-443027224)
+- 📄 [CV](assets/cv.pdf)
+- 📞 [Téléphone](tel:+33658628346)
