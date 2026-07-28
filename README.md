@@ -67,16 +67,16 @@ Le projet comprend :
 
 <p align="center">
   <a href="https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/Robotique%20Industrielle/Pall%C3%A9tisation/README.md" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-blue?logo=github" alt="Voir le projet">
+    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github" alt="Voir le projet">
   </a>
 </p>
 
 </td>
 <td width="45%" valign="top" align="center">
 
-<a href="Robotique Industrielle/Pallétisation/media/gif_projet.mp4" target="_blank" rel="noopener noreferrer">
-  <img src="Robotique Industrielle/Pallétisation/media/gif_projet.mp4" alt="Dépalettisation" width="100%">
-</a>
+<video autoplay loop muted playsinline controls width="100%">
+  <source src="Robotique%20Industrielle/Pall%C3%A9tisation/media/gif_projet.mp4" type="video/mp4">
+</video>
 
 </td>
 </tr>
