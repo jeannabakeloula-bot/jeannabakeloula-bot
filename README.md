@@ -227,7 +227,7 @@ Missions principales :
 
 - Robotique collaborative
 - Programmation robot UR3
-- Conception mécanique
+- Conception sous SolidWorks de pièces de fixation des instruments (balance, vortex, pipette) pour la reproductibilité des trajectoires et programmation du robot en Python POO
 - Automatisation de procédés en laboratoire
 
 ---
