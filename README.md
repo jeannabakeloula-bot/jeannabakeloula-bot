@@ -48,6 +48,10 @@ Actuellement, je développe mes compétences à travers des projets personnels a
 
 ## 📦 Cellule industrielle de dépalettisation
 
+<table>
+<tr>
+<td width="55%" valign="top">
+
 Programmation hors ligne d'une cellule robotisée de dépalettisation réalisée avec **RoboDK**.
 
 Le projet comprend :
@@ -61,9 +65,22 @@ Le projet comprend :
 - Repères utilisateurs (*Reference Frames*)
 - Génération de trajectoires sans collision
 
-➡️ **Dépôt GitHub**
+<p align="center">
+  <a href="https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/Robotique%20Industrielle/Pall%C3%A9tisation/README.md" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-blue?logo=github" alt="Voir le projet">
+  </a>
+</p>
 
-🔗 https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/Robotique%20Industrielle/Pall%C3%A9tisation/README.md
+</td>
+<td width="45%" valign="top" align="center">
+
+<a href="LIEN_DE_TA_VIDEO_OU_PAGE" target="_blank" rel="noopener noreferrer">
+  <img src="LIEN_DE_TON_GIF_OU_MINIATURE" alt="Dépalettisation" width="100%">
+</a>
+
+</td>
+</tr>
+</table>
 
 ---
 
