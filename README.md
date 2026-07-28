@@ -150,8 +150,8 @@ Prochains dépôts :
 <td width="45%" valign="top">
 
 <div align="center">
-  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/vue_d'ensemble2.png" alt="Vue d'ensemble" width="48%" />
-  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/Int%C3%A9rieur_du_boitier_1.png" alt="Intérieur du boitier" width="48%" />
+  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/vue_d'ensemble2.png" alt="Vue d'ensemble" width="65%" />
+  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/Int%C3%A9rieur_du_boitier_1.png" alt="Intérieur du boitier" width="35%" />
 </div>
 
 </td>
