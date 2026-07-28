@@ -251,94 +251,95 @@ Missions principales :
 
 <hr>
 
-# 🧠 Intelligence artificielle & optimisation industrielle
+<h2>🧠 Intelligence artificielle & optimisation industrielle</h2>
 
-## 🧬 Optimisation de mélanges industriels par algorithme génétique
+<h4>🧬 Optimisation de mélanges industriels par algorithme génétique</h4>
 
-Développement d’un outil d’aide à la décision pour optimiser l’homogénéisation de lots de matière première en contexte industriel.
+<p><small>Développement d’un outil d’aide à la décision pour optimiser l’homogénéisation de lots de matière première en contexte industriel.</small></p>
 
-L’objectif est de réduire la dispersion des propriétés physico-chimiques critiques d’un lot en proposant automatiquement les meilleures combinaisons de conteneurs à mélanger.
+<p><small>L’objectif est de réduire la dispersion des propriétés physico-chimiques critiques d’un lot en proposant automatiquement les meilleures combinaisons de conteneurs à mélanger.</small></p>
 
----
-
-<table>
-<tr>
-<td width="55%" valign="top">
-
-### Approche
-
-Le problème est formulé comme une optimisation combinatoire : chaque conteneur est considéré comme un élément de recherche, et chaque combinaison de 4 conteneurs constitue une solution candidate.
-
-L’algorithme fait évoluer une population de 64 solutions sur 100 générations à l’aide de mécanismes de sélection, croisement et mutation, avec une fonction de fitness orientée vers la réduction de l’écart-type sur les propriétés cibles.
-
-</td>
-<td width="45%" valign="top" align="center">
-
-<img src="Im/ga_individu_gene.svg" alt="Modélisation individu/gène" width="95%" />
-
-</td>
-</tr>
-</table>
-
----
-
-<table>
-<tr>
-<td width="45%" valign="top" align="center">
-
-<img src="Im/ga_boucle_optimisation.svg" alt="Boucle d'optimisation génétique" width="95%" />
-
-</td>
-<td width="55%" valign="top">
-
-### Processus d’optimisation
-
-À chaque génération, les solutions sont évaluées puis améliorées jusqu’à atteindre le seuil de dispersion défini, ou jusqu’à l’épuisement du nombre maximal de générations.
-
-</td>
-</tr>
-</table>
-
----
+<hr>
 
 <table>
 <tr>
 <td width="55%" valign="top">
 
-### Architecture logicielle
+<h5>Approche</h5>
 
-Le moteur d’optimisation, développé avec **PyGAD**, est exposé via une **API FastAPI** et une **interface Gradio** à deux niveaux :
+<p><small>Le problème est formulé comme une optimisation combinatoire : chaque conteneur est considéré comme un élément de recherche, et chaque combinaison de 4 conteneurs constitue une solution candidate.</small></p>
 
-- un mode utilisateur simplifié avec paramètres verrouillés ;
-- un mode expert permettant d’ajuster les seuils, pondérations et nombre de solutions proposées.
-
-Chaque exécution produit une archive JSON horodatée ainsi qu’un rapport Markdown exploitable par des utilisateurs non techniques.
+<p><small>L’algorithme fait évoluer une population de 64 solutions sur 100 générations à l’aide de mécanismes de sélection, croisement et mutation, avec une fonction de fitness orientée vers la réduction de l’écart-type sur les propriétés cibles.</small></p>
 
 </td>
-<td width="45%" valign="top" align="center">
+<td width="45%" valign="top">
+<div align="center">
+  <img src="Im/ga_individu_gene.svg" alt="Modélisation individu/gène" width="85%">
+</div>
+</td>
+</tr>
+</table>
 
-<img src="Im/architecture_api.svg" alt="Architecture applicative" width="95%" />
+<hr>
+
+<table>
+<tr>
+<td width="45%" valign="top">
+<div align="center">
+  <img src="Im/ga_boucle_optimisation.svg" alt="Boucle d'optimisation génétique" width="85%">
+</div>
+</td>
+<td width="55%" valign="top">
+
+<h5>Processus d’optimisation</h5>
+
+<p><small>À chaque génération, les solutions sont évaluées puis améliorées jusqu’à atteindre le seuil de dispersion défini, ou jusqu’à l’épuisement du nombre maximal de générations.</small></p>
 
 </td>
 </tr>
 </table>
 
----
+<hr>
 
-### Résultats
+<table>
+<tr>
+<td width="55%" valign="top">
 
-L’approche permet d’identifier rapidement des combinaisons satisfaisantes, avec une réduction du nombre d’itérations nécessaires par rapport à la méthode manuelle.
+<h5>Architecture logicielle</h5>
 
-### Stack technique
+<p><small>Le moteur d’optimisation, développé avec <strong>PyGAD</strong>, est exposé via une <strong>API FastAPI</strong> et une <strong>interface Gradio</strong> à deux niveaux :</small></p>
 
-Python · PyGAD · FastAPI · Gradio · Pandas
+<ul>
+  <li><small>un mode utilisateur simplifié avec paramètres verrouillés ;</small></li>
+  <li><small>un mode expert permettant d’ajuster les seuils, pondérations et nombre de solutions proposées.</small></li>
+</ul>
 
-### Compétences démontrées
+<p><small>Chaque exécution produit une archive JSON horodatée ainsi qu’un rapport Markdown exploitable par des utilisateurs non techniques.</small></p>
 
-- Modélisation d’un besoin métier en problème d’optimisation combinatoire.
-- Conception d’une fonction de fitness multi-critères.
-- Développement d’une architecture logicielle modulaire.
-- Vulgarisation technique pour un usage opérationnel.
+</td>
+<td width="45%" valign="top">
+<div align="center">
+  <img src="Im/architecture_api.svg" alt="Architecture applicative" width="85%">
+</div>
+</td>
+</tr>
+</table>
+
+<hr>
+
+<h5>Résultats</h5>
+<p><small>L’approche permet d’identifier rapidement des combinaisons satisfaisantes, avec une réduction du nombre d’itérations nécessaires par rapport à la méthode manuelle.</small></p>
+
+<h5>Stack technique</h5>
+<p><small>Python · PyGAD · FastAPI · Gradio · Pandas</small></p>
+
+<h5>Compétences démontrées</h5>
+<ul>
+  <li><small>Modélisation d’un besoin métier en problème d’optimisation combinatoire.</small></li>
+  <li><small>Conception d’une fonction de fitness multi-critères.</small></li>
+  <li><small>Développement d’une architecture logicielle modulaire.</small></li>
+  <li><small>Vulgarisation technique pour un usage opérationnel.</small></li>
+</ul>
 
 # 🛠️ Compétences techniques
 
