@@ -58,7 +58,7 @@ Le projet comprend :
 
 ---
 
-## 👁️ Pick & Place guidé par vision
+## 👁️ Paletisation sous RobotGuide
 
 Application industrielle de prise et dépose utilisant :
 
@@ -120,10 +120,9 @@ Compétences mises en œuvre :
 
 Missions principales :
 
-- Développement d'algorithmes d'intelligence artificielle appliqués à l'industrie
-- Études de faisabilité robotique et automatisation
+- Études de faisabilité robotique et automatisation d'un système de prélèvement de palettes en milieu pyrotechnique 
 - Rédaction de spécifications techniques
-- Projets électriques et instrumentation
+- Projets automatisme, électriques et instrumentation
 - Supervision industrielle
 - Coordination de projets
 
@@ -154,12 +153,13 @@ Principaux éléments étudiés :
 
 **Syensqo**
 
+Développement d’une plateforme robotisée automatisée de préparation d’échantillons (cobot UR3e).
+
 Missions principales :
 
 - Robotique collaborative
 - Programmation robot UR3
 - Conception mécanique
-- Automatisation industrielle
 - Automatisation de procédés en laboratoire
 
 ---
@@ -168,7 +168,7 @@ Missions principales :
 
 ## Optimisation de procédés industriels par algorithmes génétiques
 
-Développement d'un outil d'optimisation basé sur l'intelligence artificielle pour améliorer des procédés industriels.
+Développement d'un outil d'optimisation basé sur l'intelligence artificielle pour la planification et l'optimisation de la qualité des mélanges de lots de poudre.
 
 Compétences démontrées :
 
@@ -195,7 +195,6 @@ Compétences démontrées :
 - Bases API/PLC
 - Grafcet
 - EcoStruxure Machine Expert
-- Siemens TIA Portal (en apprentissage)
 
 ## Programmation
 
