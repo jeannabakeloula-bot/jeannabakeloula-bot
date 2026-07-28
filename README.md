@@ -179,7 +179,7 @@ Missions principales :
 
 ---
 
-<h2>👁️ Paletisation sous RobotGuide</h2>
+<h2>👁️ Robotique Industrielle & Vision</h2>
 
 <table>
 <tr>
