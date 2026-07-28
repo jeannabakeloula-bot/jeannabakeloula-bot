@@ -1,0 +1,22 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header, footer {
+  position: static !important;
+  width: auto !important;
+}
+
+section {
+  float: none !important;
+  width: auto !important;
+}
+
+header img {
+  max-width: 220px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 20px 0;
+}
