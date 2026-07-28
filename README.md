@@ -264,9 +264,17 @@ Cette approche globale guide chacun de mes projets.
 
 # 📬 Restons connectés
 
-# 📫 Restons connectés
+<p align="center">
+  <a href="mailto:jeannabakeloula@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-informational" alt="Email">
+  </a>
+  <a href="https://www.linkedin.com/in/eunice-bakeloula-443027224" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="assets/cv.pdf" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/CV-PDF-red" alt="CV">
+  <a href="tel:+33658628346">
+    <img src="https://img.shields.io/badge/Téléphone-Appeler-green" alt="Téléphone">
+  </a>
+</p>
 
-- 📧 [jeannabakeloula@gmail.com](mailto:jeannabakeloula@gmail.com)
-- 💼 [LinkedIn](https://www.linkedin.com/in/eunice-bakeloula-443027224)
-- 📄 [CV](assets/cv.pdf)
-- 📞 [Téléphone](tel:+33658628346)
