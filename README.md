@@ -136,9 +136,10 @@ Le projet consiste à intégrer l'ensemble des composants fournis dans un boîti
 <p>Compétences mises en œuvre :</p>
 
 <ul>
-  <li>Conception d'assemblages</li>
-  <li>Intégration électronique (PCB)</li>
-  <li>Conception pour l'assemblage (<em>Design for Assembly</em>)</li>
+  <li>Modélisation de pièces et d'assemblages sous SolidWorks</li>
+  <li>Intégration mécanique de composants industriels (PCB, bouton d'arrêt d'urgence, potentiomètre, connectique, visserie)</li>
+  <li>Prise en compte de contraintes d'encombrement, d'ergonomie et d'assemblage</li>
+  <li>Réalisation de plans techniques et de modèles destinés à une fabrication en petite série</li>
   <li>Mise en plan technique</li>
 </ul>
 
