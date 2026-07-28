@@ -125,6 +125,8 @@ Prochains dépôts :
 
 <h3>🎛️ Boîtier de commande pour convoyeur Niryo</h3>
 
+Le projet consiste à intégrer l'ensemble des composants fournis dans un boîtier compact, ergonomique et adapté à une production en série de 500 à 1 000 exemplaires.
+
 <table>
 <tr>
 <td width="55%" valign="top">
