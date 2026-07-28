@@ -46,24 +46,26 @@ Actuellement, je développe mes compétences à travers des projets personnels a
 
 ## 🤖 Robotique industrielle
 
-## 📦 Cellule industrielle de dépalettisation
+<h2>📦 Cellule industrielle de dépalettisation</h2>
 
 <table>
 <tr>
 <td width="55%" valign="top">
 
-Programmation hors ligne d'une cellule robotisée de dépalettisation réalisée avec **RoboDK**.
+<p>Programmation hors ligne d'une cellule robotisée de dépalettisation réalisée avec <strong>RoboDK</strong>.</p>
 
-Le projet comprend :
+<p>Le projet comprend :</p>
 
-- Robot Doosan M1013
-- Rail linéaire (7ème axe)
-- Préhenseur à ventouse
-- Convoyeur industriel
-- Planification de trajectoires
-- Définition du TCP (*Tool Center Point*)
-- Repères utilisateurs (*Reference Frames*)
-- Génération de trajectoires sans collision
+<ul>
+  <li>Robot Doosan M1013</li>
+  <li>Rail linéaire (7ème axe)</li>
+  <li>Préhenseur à ventouse</li>
+  <li>Convoyeur industriel</li>
+  <li>Planification de trajectoires</li>
+  <li>Définition du TCP (<em>Tool Center Point</em>)</li>
+  <li>Repères utilisateurs (<em>Reference Frames</em>)</li>
+  <li>Génération de trajectoires sans collision</li>
+</ul>
 
 <p align="center">
   <a href="https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/Robotique%20Industrielle/Pall%C3%A9tisation/README.md" target="_blank" rel="noopener noreferrer">
@@ -81,6 +83,8 @@ Le projet comprend :
 </td>
 </tr>
 </table>
+
+<hr>
 
 ---
 
