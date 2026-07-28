@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <div align="center">
 
 # 👋 Bonjour, je suis Eunice Bakeloula
