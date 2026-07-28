@@ -1,16 +1,15 @@
 <div align="center">
 
-# 👋 Bonjour, je suis Eunice Bakeloula
+<h1>👋 Bonjour, je suis Eunice Bakeloula</h1>
+<h3>Ingénieure en Automatisation & Robotique</h3>
 
-### Ingénieure en Automatisation & Robotique
+<p><em>Concevoir des systèmes robotiques intelligents pour l'industrie de demain.</em></p>
 
-*Concevoir des systèmes robotiques intelligents pour l'industrie de demain.*
-
-</div>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://linkedin.com/in/...)
-[![CV](https://img.shields.io/badge/CV-PDF-red)](...)
-[![Email](https://img.shields.io/badge/Email-Contact-informational)](mailto:...)
+<p>
+  <a href="https://linkedin.com/in/..."><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin" alt="LinkedIn"></a>
+  <a href="..."><img src="https://img.shields.io/badge/CV-PDF-red" alt="CV"></a>
+  <a href="mailto:..."><img src="https://img.shields.io/badge/Email-Contact-informational" alt="Email"></a>
+</p>
 
 </div>
 
