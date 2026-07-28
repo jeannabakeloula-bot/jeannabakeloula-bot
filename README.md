@@ -75,7 +75,7 @@ Le projet comprend :
 <td width="45%" valign="top" align="center">
 
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="RobotiqueIndustrielle/Pallétisation/media/gif_projet.mp4" type="video/mp4">
+  <source src="Robotique Industrielle/Pallétisation/media/gif_projet.mp4" type="video/mp4">
 </video>
 
 </td>
