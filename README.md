@@ -202,14 +202,6 @@ Missions principales :
   <li>Transformation de coordonnées</li>
 </ul>
 
-<p align="center">
-  <a href="LIEN_VERS_TON_PROJET" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github" alt="Voir le projet">
-  </a>
-</p>
-
-<p><em>Dépôt GitHub prochainement</em></p>
-
 </td>
 
 <td width="45%" valign="top" align="center">
