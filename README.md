@@ -253,11 +253,11 @@ Missions principales :
 
 <h2>🧠 Intelligence artificielle & optimisation industrielle</h2>
 
-<h4>🧬 Optimisation de mélanges industriels par algorithme génétique</h4>
+<h3>🧬 Optimisation de mélanges industriels par algorithme génétique</h3>
 
-<p><small>Développement d’un outil d’aide à la décision pour optimiser l’homogénéisation de lots de matière première en contexte industriel.</small></p>
+<p>Développement d’un outil d’aide à la décision pour optimiser l’homogénéisation de lots de matière première en contexte industriel.</p>
 
-<p><small>L’objectif est de réduire la dispersion des propriétés physico-chimiques critiques d’un lot en proposant automatiquement les meilleures combinaisons de conteneurs à mélanger.</small></p>
+<p>L’objectif est de réduire la dispersion des propriétés physico-chimiques critiques d’un lot en proposant automatiquement les meilleures combinaisons de conteneurs à mélanger.</p>
 
 <hr>
 
@@ -265,16 +265,16 @@ Missions principales :
 <tr>
 <td width="55%" valign="top">
 
-<h5>Approche</h5>
+<h4>Approche</h4>
 
-<p><small>Le problème est formulé comme une optimisation combinatoire : chaque conteneur est considéré comme un élément de recherche, et chaque combinaison de 4 conteneurs constitue une solution candidate.</small></p>
+<p>Le problème est formulé comme une optimisation combinatoire : chaque conteneur est considéré comme un élément de recherche, et chaque combinaison de 4 conteneurs constitue une solution candidate.</p>
 
-<p><small>L’algorithme fait évoluer une population de 64 solutions sur 100 générations à l’aide de mécanismes de sélection, croisement et mutation, avec une fonction de fitness orientée vers la réduction de l’écart-type sur les propriétés cibles.</small></p>
+<p>L’algorithme fait évoluer une population de 64 solutions sur 100 générations à l’aide de mécanismes de sélection, croisement et mutation, avec une fonction de fitness orientée vers la réduction de l’écart-type sur les propriétés cibles.</p>
 
 </td>
 <td width="45%" valign="top">
 <div align="center">
-  <img src="Im/ga_individu_gene.svg" alt="Modélisation individu/gène" width="85%">
+  <img src="Im/ga_individu_gene.svg" alt="Modélisation individu/gène" width="90%">
 </div>
 </td>
 </tr>
@@ -286,14 +286,14 @@ Missions principales :
 <tr>
 <td width="45%" valign="top">
 <div align="center">
-  <img src="Im/ga_boucle_optimisation.svg" alt="Boucle d'optimisation génétique" width="85%">
+  <img src="Im/ga_boucle_optimisation.svg" alt="Boucle d'optimisation génétique" width="90%">
 </div>
 </td>
 <td width="55%" valign="top">
 
-<h5>Processus d’optimisation</h5>
+<h4>Processus d’optimisation</h4>
 
-<p><small>À chaque génération, les solutions sont évaluées puis améliorées jusqu’à atteindre le seuil de dispersion défini, ou jusqu’à l’épuisement du nombre maximal de générations.</small></p>
+<p>À chaque génération, les solutions sont évaluées puis améliorées jusqu’à atteindre le seuil de dispersion défini, ou jusqu’à l’épuisement du nombre maximal de générations.</p>
 
 </td>
 </tr>
@@ -305,21 +305,21 @@ Missions principales :
 <tr>
 <td width="55%" valign="top">
 
-<h5>Architecture logicielle</h5>
+<h4>Architecture logicielle</h4>
 
-<p><small>Le moteur d’optimisation, développé avec <strong>PyGAD</strong>, est exposé via une <strong>API FastAPI</strong> et une <strong>interface Gradio</strong> à deux niveaux :</small></p>
+<p>Le moteur d’optimisation, développé avec <strong>PyGAD</strong>, est exposé via une <strong>API FastAPI</strong> et une <strong>interface Gradio</strong> à deux niveaux :</p>
 
 <ul>
-  <li><small>un mode utilisateur simplifié avec paramètres verrouillés ;</small></li>
-  <li><small>un mode expert permettant d’ajuster les seuils, pondérations et nombre de solutions proposées.</small></li>
+  <li>un mode utilisateur simplifié avec paramètres verrouillés ;</li>
+  <li>un mode expert permettant d’ajuster les seuils, pondérations et nombre de solutions proposées.</li>
 </ul>
 
-<p><small>Chaque exécution produit une archive JSON horodatée ainsi qu’un rapport Markdown exploitable par des utilisateurs non techniques.</small></p>
+<p>Chaque exécution produit une archive JSON horodatée ainsi qu’un rapport Markdown exploitable par des utilisateurs non techniques.</p>
 
 </td>
 <td width="45%" valign="top">
 <div align="center">
-  <img src="Im/architecture_api.svg" alt="Architecture applicative" width="85%">
+  <img src="Im/architecture_api.svg" alt="Architecture applicative" width="90%">
 </div>
 </td>
 </tr>
@@ -327,18 +327,19 @@ Missions principales :
 
 <hr>
 
-<h5>Résultats</h5>
-<p><small>L’approche permet d’identifier rapidement des combinaisons satisfaisantes, avec une réduction du nombre d’itérations nécessaires par rapport à la méthode manuelle.</small></p>
+<h4>Résultats</h4>
 
-<h5>Stack technique</h5>
-<p><small>Python · PyGAD · FastAPI · Gradio · Pandas</small></p>
+<p>L’approche permet d’identifier rapidement des combinaisons satisfaisantes, avec une réduction du nombre d’itérations nécessaires par rapport à la méthode manuelle.</p>
 
-<h5>Compétences démontrées</h5>
+<h4>Stack technique</h4>
+<p>Python · PyGAD · FastAPI · Gradio · Pandas</p>
+
+<h4>Compétences démontrées</h4>
 <ul>
-  <li><small>Modélisation d’un besoin métier en problème d’optimisation combinatoire.</small></li>
-  <li><small>Conception d’une fonction de fitness multi-critères.</small></li>
-  <li><small>Développement d’une architecture logicielle modulaire.</small></li>
-  <li><small>Vulgarisation technique pour un usage opérationnel.</small></li>
+  <li>Modélisation d’un besoin métier en problème d’optimisation combinatoire.</li>
+  <li>Conception d’une fonction de fitness multi-critères.</li>
+  <li>Développement d’une architecture logicielle modulaire.</li>
+  <li>Vulgarisation technique pour un usage opérationnel.</li>
 </ul>
 
 # 🛠️ Compétences techniques
