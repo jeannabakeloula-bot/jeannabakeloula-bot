@@ -129,7 +129,7 @@ Le projet consiste à intégrer l'ensemble des composants fournis dans un boîti
 
 <table>
 <tr>
-<td width="55%" valign="top">
+<td width="55%" valign="center">
 
 <p>Conception mécanique d'un boîtier de commande industriel réalisé avec <strong>SolidWorks</strong>.</p>
 
