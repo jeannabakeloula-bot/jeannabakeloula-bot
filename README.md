@@ -255,41 +255,90 @@ Missions principales :
 
 ## 🧬 Optimisation de mélanges industriels par algorithme génétique
 
-Développement d'un outil d'aide à la décision pour l'homogénéisation de lots de matière première, dans un contexte de production industrielle. 
+Développement d’un outil d’aide à la décision pour optimiser l’homogénéisation de lots de matière première en contexte industriel.
 
-**L'objectif**  : réduire la dispersion des propriétés physico-chimiques critiques d'un lot en identifiant automatiquement les meilleures combinaisons de conteneurs à mélanger, là où la méthode manuelle reposait sur un protocole empirique fixe et des cycles d'essai longs.
+L’objectif est de réduire la dispersion des propriétés physico-chimiques critiques d’un lot en proposant automatiquement les meilleures combinaisons de conteneurs à mélanger.
 
-### Principe
+---
 
-Le problème est modélisé comme une recherche combinatoire : chaque **conteneur** devient un **gène**, chaque **combinaison de 4 conteneurs** devient un **individu**, et une **population** de 64 individus évolue sur 100 générations (sélection,croisement, mutation) pilotée par une fonction de fitness qui récompense la réduction de l'écart-type sur les propriétés cibles.
+<table>
+<tr>
+<td width="55%" valign="top">
 
-![Modélisation individu/gène](docs/img/ga_individu_gene.svg)
+### Approche
 
-### Boucle d'optimisation
+Le problème est formulé comme une optimisation combinatoire : chaque conteneur est considéré comme un élément de recherche, et chaque combinaison de 4 conteneurs constitue une solution candidate.
 
-À chaque génération, les individus sont évalués, sélectionnés, recombinés et mutés, jusqu'à convergence vers une combinaison qui atteint la cible de dispersion fixée — ou jusqu'à épuisement du budget de générations.
+L’algorithme fait évoluer une population de 64 solutions sur 100 générations à l’aide de mécanismes de sélection, croisement et mutation, avec une fonction de fitness orientée vers la réduction de l’écart-type sur les propriétés cibles.
 
-![Boucle d'optimisation génétique](docs/img/ga_boucle_optimisation.svg)
+</td>
+<td width="45%" valign="top" align="center">
+
+<img src="Im/ga_individu_gene.svg" alt="Modélisation individu/gène" width="95%" />
+
+</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td width="45%" valign="top" align="center">
+
+<img src="Im/ga_boucle_optimisation.svg" alt="Boucle d'optimisation génétique" width="95%" />
+
+</td>
+<td width="55%" valign="top">
+
+### Processus d’optimisation
+
+À chaque génération, les solutions sont évaluées puis améliorées jusqu’à atteindre le seuil de dispersion défini, ou jusqu’à l’épuisement du nombre maximal de générations.
+
+</td>
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+<td width="55%" valign="top">
 
 ### Architecture logicielle
 
-Le moteur d'optimisation (implémenté avec **PyGAD**) est encapsulé derrière une **API FastAPI**, elle-même exposée via une **interface Gradio** à deux niveaux : un mode utilisateur (paramètres verrouillés, un clic) et un mode expert (score cible, pondérations, nombre de chemins proposés). Chaque exécution génère une archive JSON horodatée et un rapport Markdown lisible par des non-codeurs.
+Le moteur d’optimisation, développé avec **PyGAD**, est exposé via une **API FastAPI** et une **interface Gradio** à deux niveaux :
 
-![Architecture applicative](docs/img/architecture_api.svg)
+- un mode utilisateur simplifié avec paramètres verrouillés ;
+- un mode expert permettant d’ajuster les seuils, pondérations et nombre de solutions proposées.
+
+Chaque exécution produit une archive JSON horodatée ainsi qu’un rapport Markdown exploitable par des utilisateurs non techniques.
+
+</td>
+<td width="45%" valign="top" align="center">
+
+<img src="Im/architecture_api.svg" alt="Architecture applicative" width="95%" />
+
+</td>
+</tr>
+</table>
+
+---
 
 ### Résultats
 
-Sur les jeux de données testés, l'algorithme identifie systématiquement une combinaison ramenant l'écart-type des propriétés critiques en dessous du seuil cible en 2 à 4 mélanges, contre un nombre bien plus élevé d'itérations avec la méthode manuelle empirique.
+L’approche permet d’identifier rapidement des combinaisons satisfaisantes, avec une réduction du nombre d’itérations nécessaires par rapport à la méthode manuelle.
 
 ### Stack technique
 
-`Python` · `PyGAD` (algorithme génétique) · `FastAPI` · `Gradio` · `Pandas`
+Python · PyGAD · FastAPI · Gradio · Pandas
 
-**Compétences démontrées**
-- Modélisation d'un problème métier en optimisation combinatoire
-- Conception d'une fonction de fitness multi-critères avec garde-fous
-- Architecture logicielle modulaire (moteur / API / interface)
-- Vulgarisation technique pour utilisateurs non-codeurs
+### Compétences démontrées
+
+- Modélisation d’un besoin métier en problème d’optimisation combinatoire.
+- Conception d’une fonction de fitness multi-critères.
+- Développement d’une architecture logicielle modulaire.
+- Vulgarisation technique pour un usage opérationnel.
 
 # 🛠️ Compétences techniques
 
