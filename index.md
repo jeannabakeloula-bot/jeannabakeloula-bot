@@ -1,6 +1,7 @@
 ---
 layout: default
 title: BAKELOULA EUNICE
+markdown: kramdown
 ---
 
 
