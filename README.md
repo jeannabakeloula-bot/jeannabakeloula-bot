@@ -261,49 +261,27 @@ Missions principales :
 
 <hr>
 
-<table>
-<tr>
-<td width="55%" valign="top">
-
 <h4>Approche</h4>
 
 <p>Le problème est formulé comme une optimisation combinatoire : chaque conteneur est considéré comme un élément de recherche, et chaque combinaison de 4 conteneurs constitue une solution candidate.</p>
 
 <p>L’algorithme fait évoluer une population de 64 solutions sur 100 générations à l’aide de mécanismes de sélection, croisement et mutation, avec une fonction de fitness orientée vers la réduction de l’écart-type sur les propriétés cibles.</p>
 
-</td>
-<td width="45%" valign="top">
 <div align="center">
-  <img src="Im/ga_individu_gene.svg" alt="Modélisation individu/gène" width="120%">
+  <img src="Im/ga_individu_gene.svg" alt="Modélisation individu/gène" width="95%">
 </div>
-</td>
-</tr>
-</table>
 
 <hr>
-
-<table>
-<tr>
-<td width="45%" valign="top">
-<div align="center">
-  <img src="Im/ga_boucle_optimisation.svg" alt="Boucle d'optimisation génétique" width="120%">
-</div>
-</td>
-<td width="55%" valign="top">
 
 <h4>Processus d’optimisation</h4>
 
 <p>À chaque génération, les solutions sont évaluées puis améliorées jusqu’à atteindre le seuil de dispersion défini, ou jusqu’à l’épuisement du nombre maximal de générations.</p>
 
-</td>
-</tr>
-</table>
+<div align="center">
+  <img src="Im/ga_boucle_optimisation.svg" alt="Boucle d'optimisation génétique" width="95%">
+</div>
 
 <hr>
-
-<table>
-<tr>
-<td width="55%" valign="top">
 
 <h4>Architecture logicielle</h4>
 
@@ -316,14 +294,9 @@ Missions principales :
 
 <p>Chaque exécution produit une archive JSON horodatée ainsi qu’un rapport Markdown exploitable par des utilisateurs non techniques.</p>
 
-</td>
-<td width="45%" valign="top">
 <div align="center">
-  <img src="Im/architecture_api.svg" alt="Architecture applicative" width="120%">
+  <img src="Im/architecture_api.svg" alt="Architecture applicative" width="95%">
 </div>
-</td>
-</tr>
-</table>
 
 <hr>
 
@@ -332,9 +305,11 @@ Missions principales :
 <p>L’approche permet d’identifier rapidement des combinaisons satisfaisantes, avec une réduction du nombre d’itérations nécessaires par rapport à la méthode manuelle.</p>
 
 <h4>Stack technique</h4>
+
 <p>Python · PyGAD · FastAPI · Gradio · Pandas</p>
 
 <h4>Compétences démontrées</h4>
+
 <ul>
   <li>Modélisation d’un besoin métier en problème d’optimisation combinatoire.</li>
   <li>Conception d’une fonction de fitness multi-critères.</li>
