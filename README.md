@@ -121,24 +121,44 @@ Prochains dépôts :
 
 ---
 
-# 🏗️ Conception mécanique
+<h2>🏗️ Conception mécanique</h2>
 
-## 🎛️ Boîtier de commande pour convoyeur Niryo
+<h3>🎛️ Boîtier de commande pour convoyeur Niryo</h3>
 
-Conception mécanique d'un boîtier de commande industriel réalisé avec **SolidWorks**.
+<table>
+<tr>
+<td width="55%" valign="top">
 
-Compétences mises en œuvre :
+<p>Conception mécanique d'un boîtier de commande industriel réalisé avec <strong>SolidWorks</strong>.</p>
 
-- Conception d'assemblages
-- Intégration électronique (PCB)
-- Conception pour l'assemblage (*Design for Assembly*)
-- Mise en plan technique
+<p>Compétences mises en œuvre :</p>
 
-➡️ **Dépôt GitHub**
+<ul>
+  >Conception d'assemblages</li>
+  >Intégration électronique (PCB)</li>
+  >Conception pour l'assemblage (<em>Design for Assembly</em>)</li>
+  >Mise en plan technique</li>
+</ul>
 
-🔗 https://github.com/USERNAME/control-box-design
+<p align="center">
+  <a href="https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/CA0/Boitier%20de%20contr%C3%B4le/README.md" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github" alt="Voir le projet">
+  </a>
+</p>
 
----
+</td>
+<td width="45%" valign="top">
+
+<div align="center">
+  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/vue_d'ensemble1.png" alt="Vue d'ensemble" width="48%" />
+  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/Int%C3%A9rieur_du_boitier_1.png" alt="Intérieur du boitier" width="48%" />
+</div>
+
+</td>
+</tr>
+</table>
+
+<hr>
 
 # 💼 Expériences professionnelles
 
