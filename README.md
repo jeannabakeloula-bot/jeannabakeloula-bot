@@ -74,8 +74,8 @@ Le projet comprend :
 </td>
 <td width="45%" valign="top" align="center">
 
-<a href="LIEN_DE_TA_VIDEO_OU_PAGE" target="_blank" rel="noopener noreferrer">
-  <img src="LIEN_DE_TON_GIF_OU_MINIATURE" alt="Dépalettisation" width="100%">
+<a href="Robotique Industrielle/Pallétisation/media/gif_projet.mp4" target="_blank" rel="noopener noreferrer">
+  <img src="Robotique Industrielle/Pallétisation/media/gif_projet.mp4" alt="Dépalettisation" width="100%">
 </a>
 
 </td>
