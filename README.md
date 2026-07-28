@@ -86,8 +86,6 @@ Actuellement, je développe mes compétences à travers des projets personnels a
 
 <hr>
 
----
-
 ## 👁️ Paletisation sous RobotGuide
 
 Application industrielle de prise et dépose utilisant :
