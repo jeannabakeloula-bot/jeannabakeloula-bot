@@ -44,9 +44,9 @@ Actuellement, je développe mes compétences à travers des projets personnels a
 
 # 🚀 Projets principaux
 
-## 🤖 Robotique industrielle
+1. **Robotique industrielle**
 
-<h2>📦 Cellule industrielle de dépalettisation</h2>
+<h4>📦 Cellule industrielle de dépalettisation</h4>
 
 <table>
 <tr>
