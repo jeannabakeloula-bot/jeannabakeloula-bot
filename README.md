@@ -5,10 +5,18 @@
 
 <p><em>Concevoir des systèmes robotiques intelligents pour l'industrie de demain.</em></p>
 
-<p>
-  <a href="[https://linkedin.com/in/...](https://www.linkedin.com/in/eunice-bakeloula-443027224)"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin" alt="LinkedIn"></a>
-  <a href="..."><img src="https://img.shields.io/badge/CV-PDF-red" alt="CV"></a>
-  <a href="mailto:..."><img src="https://img.shields.io/badge/Email-Contact-informational" alt="Email"></a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/eunice-bakeloula-443027224" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin" alt="LinkedIn">
+  </a>
+
+  <a href="https://jeannabakeloula-bot.github.io/jeannabakeloula-bot/assets/cv.pdf" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/CV-PDF-red" alt="CV">
+  </a>
+
+  <a href="mailto:jeannabakeloula@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-informational" alt="Email">
+  </a>
 </p>
 
 </div>
