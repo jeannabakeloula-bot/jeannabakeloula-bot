@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin" alt="LinkedIn">
   </a>
 
-  <a href="https://jeannabakeloula-bot.github.io/jeannabakeloula-bot/assets/cv.pdf" target="_blank" rel="noopener noreferrer">
+  <a href="https://jeannabakeloula-bot.github.io/jeannabakeloula-bot/assets/CV_Eunice_BAKELOULA_Roboticien.pdf" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/CV-PDF-red" alt="CV">
   </a>
 
