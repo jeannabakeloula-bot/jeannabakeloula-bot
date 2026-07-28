@@ -63,7 +63,7 @@ Le projet comprend :
 
 ➡️ **Dépôt GitHub**
 
-🔗 https://github.com/USERNAME/industrial-depalettizing-cell
+🔗 https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/Robotique%20Industrielle/Pall%C3%A9tisation/README.md
 
 ---
 
