@@ -134,10 +134,10 @@ Prochains dépôts :
 <p>Compétences mises en œuvre :</p>
 
 <ul>
-  >Conception d'assemblages</li>
-  >Intégration électronique (PCB)</li>
-  >Conception pour l'assemblage (<em>Design for Assembly</em>)</li>
-  >Mise en plan technique</li>
+  <li>Conception d'assemblages</li>
+  <li>Intégration électronique (PCB)</li>
+  <li>Conception pour l'assemblage (<em>Design for Assembly</em>)</li>
+  <li>Mise en plan technique</li>
 </ul>
 
 <p align="center">
