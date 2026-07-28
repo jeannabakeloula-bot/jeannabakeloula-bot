@@ -317,39 +317,85 @@ Missions principales :
   <li>Vulgarisation technique pour un usage opérationnel.</li>
 </ul>
 
-# 🛠️ Compétences techniques
+<h4>🛠️ Compétences techniques</h4>
 
-## Robotique
+<style>
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0 20px 0;
+}
 
-- FANUC
-- Stäubli
-- Universal Robots
-- RoboDK
-- ROS 2
-- Programmation hors ligne
+.skill-box {
+  border: 1px solid #d0d7de;
+  border-radius: 12px;
+  padding: 8px 14px;
+  font-size: 0.92em;
+  background: #f8f9fb;
+  color: #24292f;
+  white-space: nowrap;
+}
 
-## Automatisation
+.skill-section {
+  margin-bottom: 18px;
+}
 
-- Bases API/PLC
-- Grafcet
-- EcoStruxure Machine Expert
+.skill-title {
+  font-size: 1.05em;
+  margin-bottom: 8px;
+}
+</style>
 
-## Programmation
+<div class="skill-section">
+  <div class="skill-title"><strong>Robotique</strong></div>
+  <div class="skills-grid">
+    <span class="skill-box">FANUC</span>
+    <span class="skill-box">Stäubli</span>
+    <span class="skill-box">Universal Robots</span>
+    <span class="skill-box">RoboDK</span>
+    <span class="skill-box">SRS</span>
+    <span class="skill-box">RobotGuide</span>
+    <span class="skill-box">ROS 2</span>
+    <span class="skill-box">Programmation hors ligne</span>
+  </div>
+</div>
 
-- Python
-- C++
-- MATLAB / Simulink
+<div class="skill-section">
+  <div class="skill-title"><strong>Automatisation</strong></div>
+  <div class="skills-grid">
+    <span class="skill-box">API/PLC</span>
+    <span class="skill-box">Grafcet</span>
+    <span class="skill-box">EcoStruxure Machine Expert</span>
+  </div>
+</div>
 
-## CAO
+<div class="skill-section">
+  <div class="skill-title"><strong>Programmation</strong></div>
+  <div class="skills-grid">
+    <span class="skill-box">Python</span>
+    <span class="skill-box">C++</span>
+    <span class="skill-box">MATLAB / Simulink</span>
+  </div>
+</div>
 
-- SolidWorks
+<div class="skill-section">
+  <div class="skill-title"><strong>CAO</strong></div>
+  <div class="skills-grid">
+    <span class="skill-box">SolidWorks</span>
+    <span class="skill-box">Inventor</span>
+    <span class="skill-box">Creo</span>
+  </div>
+</div>
 
-## Vision industrielle
-
-- SensoPart
-- Calibration caméra
-- Robotique guidée par vision
-
+<div class="skill-section">
+  <div class="skill-title"><strong>Vision industrielle</strong></div>
+  <div class="skills-grid">
+    <span class="skill-box">SensoPart</span>
+    <span class="skill-box">Calibration caméra</span>
+    <span class="skill-box">Robotique guidée par vision</span>
+  </div>
+</div>
 ---
 
 # 🎓 Formation
