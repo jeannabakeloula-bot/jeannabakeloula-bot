@@ -1,0 +1,96 @@
+<svg viewBox="0 0 1000 620" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#111a2e"/>
+    </linearGradient>
+    <marker id="arrow3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#38bdf8"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1000" height="620" fill="url(#bg3)"/>
+
+  <text x="40" y="46" fill="#e2e8f0" font-size="22" font-weight="700">Architecture applicative — API Sélecteur de Partiels</text>
+  <text x="40" y="70" fill="#7e93b3" font-size="13">FastAPI + Gradio + moteur d'algorithme génétique (PyGAD)</text>
+
+  <!-- Layer 1: data sources -->
+  <text x="40" y="112" fill="#5a6f92" font-size="11" font-weight="700" letter-spacing="1">01 · SOURCES DE DONNÉES</text>
+  <g transform="translate(40,124)">
+    <rect width="200" height="70" rx="10" fill="#152238" stroke="#2b3f5f"/>
+    <text x="100" y="30" fill="#e2e8f0" font-size="13" font-weight="600" text-anchor="middle">Fichier CSV</text>
+    <text x="100" y="50" fill="#94a3b8" font-size="10" text-anchor="middle">Conteneur / Vivacité / Potentiel</text>
+  </g>
+  <g transform="translate(260,124)">
+    <rect width="200" height="70" rx="10" fill="#152238" stroke="#2b3f5f"/>
+    <text x="100" y="30" fill="#e2e8f0" font-size="13" font-weight="600" text-anchor="middle">Fichier JSON (MES)</text>
+    <text x="100" y="50" fill="#94a3b8" font-size="10" text-anchor="middle">extraction par Partiels</text>
+  </g>
+
+  <path d="M140,194 L140,224" stroke="#38bdf8" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
+  <path d="M360,194 L360,224" stroke="#38bdf8" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
+
+  <!-- Layer 2: preview + endpoints -->
+  <text x="40" y="222" fill="#5a6f92" font-size="11" font-weight="700" letter-spacing="1">02 · COUCHE API — FASTAPI</text>
+  <g transform="translate(40,234)">
+    <rect width="420" height="130" rx="12" fill="#101c33" stroke="#2b3f5f" stroke-width="1.5"/>
+    <text x="20" y="26" fill="#38bdf8" font-size="12" font-weight="700">Endpoints</text>
+    <text x="20" y="50" fill="#cbd5e1" font-size="11">POST /view_csv/ · /view_json/  — prévisualisation</text>
+    <text x="20" y="72" fill="#cbd5e1" font-size="11">POST /run-ag-csv/  — lance l'AG depuis un CSV</text>
+    <text x="20" y="94" fill="#cbd5e1" font-size="11">POST /run-ag-json/  — lance l'AG depuis un JSON MES</text>
+    <text x="20" y="116" fill="#7e93b3" font-size="10">paramètres : score cible, nb chemins, pondérations</text>
+  </g>
+
+  <!-- Layer 2b : Mixing library + GA engine -->
+  <g transform="translate(500,124)">
+    <rect width="220" height="110" rx="12" fill="#152238" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="110" y="30" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">Librairie de mélange</text>
+    <text x="110" y="52" fill="#cbd5e1" font-size="10" text-anchor="middle">lois de mélange modulaires</text>
+    <text x="110" y="70" fill="#cbd5e1" font-size="10" text-anchor="middle">(défaut : moyenne linéaire)</text>
+    <text x="110" y="90" fill="#7e93b3" font-size="10" text-anchor="middle">simule le mélange réel</text>
+  </g>
+
+  <g transform="translate(740,124)">
+    <rect width="220" height="110" rx="12" fill="#152238" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="110" y="30" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">Moteur AG — PyGAD</text>
+    <text x="110" y="52" fill="#cbd5e1" font-size="10" text-anchor="middle">population 64 · 100 générations</text>
+    <text x="110" y="70" fill="#cbd5e1" font-size="10" text-anchor="middle">mutation 25% · sans doublons</text>
+    <text x="110" y="90" fill="#7e93b3" font-size="10" text-anchor="middle">minimise l'écart-type global</text>
+  </g>
+
+  <path d="M460,290 L498,290" stroke="#38bdf8" stroke-width="0" fill="none"/>
+  <path d="M460,265 C480,265 480,180 498,180" stroke="#38bdf8" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
+  <path d="M720,179 L738,179" stroke="#38bdf8" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
+
+  <!-- Layer 3: Gradio UI -->
+  <text x="40" y="400" fill="#5a6f92" font-size="11" font-weight="700" letter-spacing="1">03 · INTERFACE — GRADIO</text>
+  <g transform="translate(40,412)">
+    <rect width="440" height="110" rx="12" fill="#152238" stroke="#2b3f5f" stroke-width="1.5"/>
+    <text x="20" y="30" fill="#e2e8f0" font-size="13" font-weight="600">Mode utilisateur</text>
+    <text x="20" y="52" fill="#94a3b8" font-size="10">chargement du fichier → paramètres par défaut</text>
+    <text x="20" y="70" fill="#94a3b8" font-size="10">verrouillés et optimisés</text>
+    <text x="20" y="92" fill="#94a3b8" font-size="10">→ résultat en un clic</text>
+  </g>
+  <g transform="translate(500,412)">
+    <rect width="440" height="110" rx="12" fill="#152238" stroke="#2b3f5f" stroke-width="1.5"/>
+    <text x="20" y="30" fill="#e2e8f0" font-size="13" font-weight="600">Mode expert</text>
+    <text x="20" y="52" fill="#94a3b8" font-size="10">score cible, nb d'étapes max,</text>
+    <text x="20" y="70" fill="#94a3b8" font-size="10">nb de chemins proposés,</text>
+    <text x="20" y="92" fill="#94a3b8" font-size="10">pondération vivacité / potentiel</text>
+  </g>
+
+  <path d="M260,364 L260,410" stroke="#38bdf8" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
+  <path d="M720,364 C720,390 720,390 720,410" stroke="#38bdf8" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
+
+  <!-- Layer 4: results -->
+  <text x="40" y="558" fill="#5a6f92" font-size="11" font-weight="700" letter-spacing="1">04 · SORTIES</text>
+  <g transform="translate(40,568)">
+    <rect width="440" height="40" rx="10" fill="#0f2d24" stroke="#1c5c47"/>
+    <text x="220" y="26" fill="#8fd6b4" font-size="11" text-anchor="middle">Archive JSON technique (horodatée) — API/results/</text>
+  </g>
+  <g transform="translate(500,568)">
+    <rect width="440" height="40" rx="10" fill="#0f2d24" stroke="#1c5c47"/>
+    <text x="220" y="26" fill="#8fd6b4" font-size="11" text-anchor="middle">Rapport explicatif Markdown — results/</text>
+  </g>
+  <path d="M260,522 L260,566" stroke="#4ade80" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
+  <path d="M720,522 L720,566" stroke="#4ade80" stroke-width="2" fill="none" marker-end="url(#arrow3)"/>
+</svg>

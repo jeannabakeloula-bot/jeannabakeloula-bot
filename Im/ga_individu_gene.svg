@@ -1,0 +1,98 @@
+<svg viewBox="0 0 1000 480" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#111a2e"/>
+    </linearGradient>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#38bdf8"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="1000" height="480" fill="url(#bg2)"/>
+
+  <text x="40" y="46" fill="#e2e8f0" font-size="22" font-weight="700">Modélisation du problème en algorithme génétique</text>
+  <text x="40" y="70" fill="#7e93b3" font-size="13">Un conteneur de poudre = un gène · une combinaison de 4 conteneurs = un individu</text>
+
+  <!-- Population grid on the left -->
+  <text x="40" y="112" fill="#94a3b8" font-size="12" font-weight="600">Population — 64 individus</text>
+  <g id="grid">
+    <!-- 8x8 grid of small squares -->
+  </g>
+
+  <!-- generate 8x8 grid manually via loops isn't possible in static svg, so draw with repeated rects -->
+  <g transform="translate(40,128)">
+    <!-- row helper: 8 columns x 8 rows, box 24x24 gap 4 -->
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="30" y="0" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="60" y="0" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="90" y="0" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="120" y="0" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="150" y="0" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="180" y="0" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="210" y="0" width="24" height="24" rx="4" fill="#1d2b47"/>
+    <!-- Row 2 -->
+    <rect x="0" y="30" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="30" y="30" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="60" y="30" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="90" y="30" width="24" height="24" rx="4" fill="#38bdf8"/><rect x="120" y="30" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="150" y="30" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="180" y="30" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="210" y="30" width="24" height="24" rx="4" fill="#1d2b47"/>
+    <!-- Row 3 -->
+    <rect x="0" y="60" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="30" y="60" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="60" y="60" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="90" y="60" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="120" y="60" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="150" y="60" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="180" y="60" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="210" y="60" width="24" height="24" rx="4" fill="#1d2b47"/>
+    <!-- Row 4 -->
+    <rect x="0" y="90" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="30" y="90" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="60" y="90" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="90" y="90" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="120" y="90" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="150" y="90" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="180" y="90" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="210" y="90" width="24" height="24" rx="4" fill="#1d2b47"/>
+    <!-- Row 5 -->
+    <rect x="0" y="120" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="30" y="120" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="60" y="120" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="90" y="120" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="120" y="120" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="150" y="120" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="180" y="120" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="210" y="120" width="24" height="24" rx="4" fill="#1d2b47"/>
+    <!-- Row 6 -->
+    <rect x="0" y="150" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="30" y="150" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="60" y="150" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="90" y="150" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="120" y="150" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="150" y="150" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="180" y="150" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="210" y="150" width="24" height="24" rx="4" fill="#1d2b47"/>
+    <!-- Row 7 -->
+    <rect x="0" y="180" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="30" y="180" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="60" y="180" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="90" y="180" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="120" y="180" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="150" y="180" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="180" y="180" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="210" y="180" width="24" height="24" rx="4" fill="#1d2b47"/>
+    <!-- Row 8 -->
+    <rect x="0" y="210" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="30" y="210" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="60" y="210" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="90" y="210" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="120" y="210" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="150" y="210" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="180" y="210" width="24" height="24" rx="4" fill="#1d2b47"/><rect x="210" y="210" width="24" height="24" rx="4" fill="#1d2b47"/>
+  </g>
+  <text x="40" y="378" fill="#5a6f92" font-size="11">chaque case = un individu (une combinaison candidate)</text>
+
+  <!-- callout arrow from highlighted cell to individual detail -->
+  <path d="M170,158 C260,158 260,190 330,190" stroke="#38bdf8" stroke-width="1.8" fill="none" stroke-dasharray="3 3" marker-end="url(#arrow2)"/>
+
+  <!-- Individual detail box on the right -->
+  <text x="360" y="112" fill="#94a3b8" font-size="12" font-weight="600">Un individu = 4 gènes (conteneurs)</text>
+  <g transform="translate(360,130)">
+    <rect x="0" y="0" width="600" height="150" rx="14" fill="#152238" stroke="#38bdf8" stroke-width="1.5"/>
+
+    <!-- gene 1 -->
+    <g transform="translate(20,20)">
+      <rect width="130" height="110" rx="10" fill="#0f1c30" stroke="#2b3f5f"/>
+      <text x="65" y="24" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="middle">GÈNE 1</text>
+      <text x="65" y="46" fill="#e2e8f0" font-size="12" text-anchor="middle">Conteneur #17</text>
+      <text x="65" y="70" fill="#94a3b8" font-size="10" text-anchor="middle">Vivacité: 0.41</text>
+      <text x="65" y="86" fill="#94a3b8" font-size="10" text-anchor="middle">Potentiel: 1120</text>
+    </g>
+    <!-- gene 2 -->
+    <g transform="translate(165,20)">
+      <rect width="130" height="110" rx="10" fill="#0f1c30" stroke="#2b3f5f"/>
+      <text x="65" y="24" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="middle">GÈNE 2</text>
+      <text x="65" y="46" fill="#e2e8f0" font-size="12" text-anchor="middle">Conteneur #03</text>
+      <text x="65" y="70" fill="#94a3b8" font-size="10" text-anchor="middle">Vivacité: 0.39</text>
+      <text x="65" y="86" fill="#94a3b8" font-size="10" text-anchor="middle">Potentiel: 1145</text>
+    </g>
+    <!-- gene 3 -->
+    <g transform="translate(310,20)">
+      <rect width="130" height="110" rx="10" fill="#0f1c30" stroke="#2b3f5f"/>
+      <text x="65" y="24" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="middle">GÈNE 3</text>
+      <text x="65" y="46" fill="#e2e8f0" font-size="12" text-anchor="middle">Conteneur #29</text>
+      <text x="65" y="70" fill="#94a3b8" font-size="10" text-anchor="middle">Vivacité: 0.44</text>
+      <text x="65" y="86" fill="#94a3b8" font-size="10" text-anchor="middle">Potentiel: 1098</text>
+    </g>
+    <!-- gene 4 -->
+    <g transform="translate(455,20)">
+      <rect width="130" height="110" rx="10" fill="#0f1c30" stroke="#2b3f5f"/>
+      <text x="65" y="24" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="middle">GÈNE 4</text>
+      <text x="65" y="46" fill="#e2e8f0" font-size="12" text-anchor="middle">Conteneur #52</text>
+      <text x="65" y="70" fill="#94a3b8" font-size="10" text-anchor="middle">Vivacité: 0.40</text>
+      <text x="65" y="86" fill="#94a3b8" font-size="10" text-anchor="middle">Potentiel: 1131</text>
+    </g>
+  </g>
+
+  <!-- fitness arrow down -->
+  <path d="M660,280 L660,330" stroke="#4ade80" stroke-width="2" fill="none" marker-end="url(#arrow2)"/>
+
+  <g transform="translate(360,335)">
+    <rect x="0" y="0" width="600" height="110" rx="14" fill="#0f2d24" stroke="#1c5c47" stroke-width="1.5"/>
+    <text x="20" y="28" fill="#4ade80" font-size="13" font-weight="700">Score de fitness de l'individu</text>
+    <text x="20" y="50" fill="#8fd6b4" font-size="11">écart-type(Vivacité) et écart-type(Potentiel) après mélange simulé</text>
+    <text x="20" y="68" fill="#8fd6b4" font-size="11">+ bonus de proximité à la cible  −  pénalité si trop de mélanges</text>
+    <text x="20" y="86" fill="#8fd6b4" font-size="11">→ combinaisons avec doublons rejetées (score nul)</text>
+  </g>
+
+  <text x="500" y="465" fill="#4b5f80" font-size="11" text-anchor="middle">gene_space = indices des conteneurs disponibles · allow_duplicate_genes = False</text>
+</svg>

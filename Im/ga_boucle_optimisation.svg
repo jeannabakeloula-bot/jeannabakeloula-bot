@@ -1,0 +1,101 @@
+<svg viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#111a2e"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowMuted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1000" height="560" fill="url(#bg)"/>
+
+  <text x="40" y="48" fill="#e2e8f0" font-size="22" font-weight="700">Boucle d'optimisation — Algorithme génétique</text>
+  <text x="40" y="72" fill="#7e93b3" font-size="13">Homogénéisation de conteneurs de poudre selon vivacité &amp; potentiel</text>
+
+  <!-- Step boxes -->
+  <!-- 1 Population -->
+  <g>
+    <rect x="40" y="120" width="170" height="110" rx="12" fill="#152238" stroke="#2b3f5f" stroke-width="1.5"/>
+    <text x="125" y="150" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">01</text>
+    <text x="125" y="172" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">Population initiale</text>
+    <text x="125" y="192" fill="#94a3b8" font-size="11" text-anchor="middle">64 individus</text>
+    <text x="125" y="208" fill="#94a3b8" font-size="11" text-anchor="middle">combinaisons de 4</text>
+    <text x="125" y="222" fill="#94a3b8" font-size="11" text-anchor="middle">conteneurs (aléatoire)</text>
+  </g>
+
+  <!-- 2 Evaluation -->
+  <g>
+    <rect x="270" y="120" width="170" height="110" rx="12" fill="#152238" stroke="#2b3f5f" stroke-width="1.5"/>
+    <text x="355" y="150" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">02</text>
+    <text x="355" y="172" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">Évaluation</text>
+    <text x="355" y="192" fill="#94a3b8" font-size="11" text-anchor="middle">fonction de fitness</text>
+    <text x="355" y="208" fill="#94a3b8" font-size="11" text-anchor="middle">score = f(écart-type</text>
+    <text x="355" y="222" fill="#94a3b8" font-size="11" text-anchor="middle">vivacité, potentiel)</text>
+  </g>
+
+  <!-- 3 Selection -->
+  <g>
+    <rect x="500" y="120" width="170" height="110" rx="12" fill="#152238" stroke="#2b3f5f" stroke-width="1.5"/>
+    <text x="585" y="150" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">03</text>
+    <text x="585" y="172" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">Sélection</text>
+    <text x="585" y="192" fill="#94a3b8" font-size="11" text-anchor="middle">meilleurs individus</text>
+    <text x="585" y="208" fill="#94a3b8" font-size="11" text-anchor="middle">retenus selon</text>
+    <text x="585" y="222" fill="#94a3b8" font-size="11" text-anchor="middle">leur score</text>
+  </g>
+
+  <!-- 4 Croisement + mutation -->
+  <g>
+    <rect x="730" y="120" width="230" height="110" rx="12" fill="#152238" stroke="#2b3f5f" stroke-width="1.5"/>
+    <text x="845" y="150" fill="#38bdf8" font-size="12" font-weight="700" text-anchor="middle">04</text>
+    <text x="845" y="172" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">Croisement + Mutation</text>
+    <text x="845" y="192" fill="#94a3b8" font-size="11" text-anchor="middle">recombinaison de solutions</text>
+    <text x="845" y="208" fill="#94a3b8" font-size="11" text-anchor="middle">mutation aléatoire</text>
+    <text x="845" y="222" fill="#94a3b8" font-size="11" text-anchor="middle">25% des gènes</text>
+  </g>
+
+  <!-- arrows between boxes -->
+  <path d="M210,175 L268,175" stroke="#38bdf8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M440,175 L498,175" stroke="#38bdf8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M670,175 L728,175" stroke="#38bdf8" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- loop back arrow -->
+  <path d="M845,232 C845,300 355,300 355,232" stroke="#64748b" stroke-width="1.8" fill="none" stroke-dasharray="4 4" marker-end="url(#arrowMuted)"/>
+  <text x="600" y="292" fill="#7e93b3" font-size="12" text-anchor="middle">nouvelle génération — répété jusqu'à 100 itérations</text>
+
+  <!-- Convergence check -->
+  <path d="M845,230 L845,320" stroke="#38bdf8" stroke-width="0" fill="none"/>
+
+  <!-- Bottom: exit condition -->
+  <g>
+    <rect x="330" y="380" width="340" height="90" rx="12" fill="#0f2d24" stroke="#1c5c47" stroke-width="1.5"/>
+    <text x="500" y="412" fill="#4ade80" font-size="14" font-weight="700" text-anchor="middle">Cible atteinte</text>
+    <text x="500" y="434" fill="#8fd6b4" font-size="11" text-anchor="middle">écart-type minimal (ex. potentiel &lt; 0.25, vivacité &lt; 0.03)</text>
+    <text x="500" y="452" fill="#8fd6b4" font-size="11" text-anchor="middle">→ meilleur individu conservé</text>
+  </g>
+
+  <path d="M355,230 C355,330 500,330 500,378" stroke="#4ade80" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <!-- final output -->
+  <g>
+    <rect x="60" y="380" width="230" height="90" rx="12" fill="#152238" stroke="#2b3f5f" stroke-width="1.5"/>
+    <text x="175" y="412" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">Simulation du mélange</text>
+    <text x="175" y="432" fill="#94a3b8" font-size="11" text-anchor="middle">calcul des propriétés</text>
+    <text x="175" y="448" fill="#94a3b8" font-size="11" text-anchor="middle">théoriques post-mélange</text>
+  </g>
+  <path d="M330,425 L288,425" stroke="#4ade80" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <g>
+    <rect x="710" y="380" width="250" height="90" rx="12" fill="#152238" stroke="#2b3f5f" stroke-width="1.5"/>
+    <text x="835" y="412" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">Mise à jour du jeu de données</text>
+    <text x="835" y="432" fill="#94a3b8" font-size="11" text-anchor="middle">nouveaux écarts-types</text>
+    <text x="835" y="448" fill="#94a3b8" font-size="11" text-anchor="middle">recalculés pour itération suivante</text>
+  </g>
+  <path d="M670,425 L708,425" stroke="#4ade80" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+
+  <text x="500" y="530" fill="#4b5f80" font-size="11" text-anchor="middle">Implémentation : pygad.GA — population = 64, generations = 100, mutation_percent_genes = 25</text>
+</svg>
