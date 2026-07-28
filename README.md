@@ -253,18 +253,43 @@ Missions principales :
 
 # 🧠 Intelligence artificielle & optimisation industrielle
 
-## Optimisation de procédés industriels par algorithmes génétiques
+## 🧬 Optimisation de mélanges industriels par algorithme génétique
 
-Développement d'un outil d'optimisation basé sur l'intelligence artificielle pour la planification et l'optimisation de la qualité des mélanges de lots de poudre.
+Développement d'un outil d'aide à la décision pour l'homogénéisation de lots de matière première, dans un contexte de production industrielle. 
 
-Compétences démontrées :
+**L'objectif**  : réduire la dispersion des propriétés physico-chimiques critiques d'un lot en identifiant automatiquement les meilleures combinaisons de conteneurs à mélanger, là où la méthode manuelle reposait sur un protocole empirique fixe et des cycles d'essai longs.
 
-- Python
-- Optimisation mathématique
-- Algorithmes génétiques
-- Analyse de données
+### Principe
 
----
+Le problème est modélisé comme une recherche combinatoire : chaque **conteneur** devient un **gène**, chaque **combinaison de 4 conteneurs** devient un **individu**, et une **population** de 64 individus évolue sur 100 générations (sélection,croisement, mutation) pilotée par une fonction de fitness qui récompense la réduction de l'écart-type sur les propriétés cibles.
+
+![Modélisation individu/gène](docs/img/ga_individu_gene.svg)
+
+### Boucle d'optimisation
+
+À chaque génération, les individus sont évalués, sélectionnés, recombinés et mutés, jusqu'à convergence vers une combinaison qui atteint la cible de dispersion fixée — ou jusqu'à épuisement du budget de générations.
+
+![Boucle d'optimisation génétique](docs/img/ga_boucle_optimisation.svg)
+
+### Architecture logicielle
+
+Le moteur d'optimisation (implémenté avec **PyGAD**) est encapsulé derrière une **API FastAPI**, elle-même exposée via une **interface Gradio** à deux niveaux : un mode utilisateur (paramètres verrouillés, un clic) et un mode expert (score cible, pondérations, nombre de chemins proposés). Chaque exécution génère une archive JSON horodatée et un rapport Markdown lisible par des non-codeurs.
+
+![Architecture applicative](docs/img/architecture_api.svg)
+
+### Résultats
+
+Sur les jeux de données testés, l'algorithme identifie systématiquement une combinaison ramenant l'écart-type des propriétés critiques en dessous du seuil cible en 2 à 4 mélanges, contre un nombre bien plus élevé d'itérations avec la méthode manuelle empirique.
+
+### Stack technique
+
+`Python` · `PyGAD` (algorithme génétique) · `FastAPI` · `Gradio` · `Pandas`
+
+**Compétences démontrées**
+- Modélisation d'un problème métier en optimisation combinatoire
+- Conception d'une fonction de fitness multi-critères avec garde-fous
+- Architecture logicielle modulaire (moteur / API / interface)
+- Vulgarisation technique pour utilisateurs non-codeurs
 
 # 🛠️ Compétences techniques
 
