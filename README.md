@@ -44,7 +44,7 @@ Actuellement, je développe mes compétences à travers des projets personnels a
 
 # 🚀 Projets principaux
 
-##🤖 Robotique industrielle
+# 🤖 Robotique industrielle
 
 <h2>📦 Cellule industrielle de dépalettisation</h2>
 
@@ -86,7 +86,7 @@ Actuellement, je développe mes compétences à travers des projets personnels a
 
 <hr>
 
-##👁️ Paletisation sous RobotGuide
+# 👁️ Paletisation sous RobotGuide
 
 Application industrielle de prise et dépose utilisant :
 
@@ -217,7 +217,7 @@ Missions principales :
 
 <hr>
 
-<h2>🤝 Stagiaire Ingénieure Automatisation & Robotique</h2>
+<h2>🤖 Robotique collaborative</h2>
 
 <table>
 <tr>
