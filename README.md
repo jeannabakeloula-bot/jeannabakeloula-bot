@@ -46,7 +46,7 @@ Actuellement, je développe mes compétences à travers des projets personnels a
 
 <h2>🤖 Robotique industrielle</h2>
 
-<h3>📦 Cellule industrielle de dépalettisation</h3>
+<h2>📦 Cellule industrielle de dépalettisation</h2>
 
 <table>
 <tr>
@@ -86,7 +86,7 @@ Actuellement, je développe mes compétences à travers des projets personnels a
 
 <hr>
 
-<h3>👁️ Paletisation sous RobotGuide</h3>
+<h2>👁️ Paletisation sous RobotGuide</h2>
 
 Application industrielle de prise et dépose utilisant :
 
