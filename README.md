@@ -46,6 +46,7 @@ Actuellement, je développe mes compétences à travers des projets personnels a
 
 <h2>🤖 Robotique industrielle</h2>
 
+
 <h2>📦 Cellule industrielle de dépalettisation</h2>
 
 <table>
