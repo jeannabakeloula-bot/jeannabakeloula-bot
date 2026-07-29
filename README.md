@@ -48,7 +48,7 @@ Actuellement, je développe mes compétences à travers des projets personnels a
 </h2>
 
 <h2>
-  <img src="Im/icons/box.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
+  <img src="Im/icons/cellule.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
   Cellule industrielle de dépalettisation
 </h2>
 
