@@ -42,12 +42,15 @@ Actuellement, je développe mes compétences à travers des projets personnels a
 
 ---
 
-# 🚀 Projets principaux
+<div style="display:flex; align-items:center; gap:8px;">
+  <img src="Im/icons/robot.svg" alt="" width="18">
+  <h2 style="margin:0;">Robotique industrielle</h2>
+</div>
 
-<h2>🤖 Robotique industrielle</h2>
-
-
-<h2>📦 Cellule industrielle de dépalettisation</h2>
+<div style="display:flex; align-items:center; gap:8px; margin-top:18px;">
+  <img src="Im/icons/box.svg" alt="" width="18">
+  <h2 style="margin:0;">Cellule industrielle de dépalettisation</h2>
+</div>
 
 <table>
 <tr>
