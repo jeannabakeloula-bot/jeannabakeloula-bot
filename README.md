@@ -93,23 +93,39 @@ J'aime transformer des concepts d'ingénierie en solutions industrielles concrè
 Actuellement, je développe mes compétences à travers des projets personnels autour de la robotique, de la programmation automate et du développement logiciel industriel.
 
 ---
-# 💼 Expériences professionnelles
+<h2>Expériences professionnelles</h2>
 
-## 🏭 Ingénieure Industrie 4.0 - Alternance
+<h3>
+  <img src="Im/icons/industrie-4.svg"
+       alt=""
+       width="22"
+       height="22"
+       style="vertical-align:middle; margin-right:8px;">
+  Ingénieure Industrie 4.0 — Alternance
+</h3>
 
-**Eurenco**
+<p><strong>Eurenco</strong></p>
 
-Missions principales :
+<p>Missions principales :</p>
 
-- Études de faisabilité robotique et automatisation d'un système de prélèvement de palettes en milieu pyrotechnique 
-- Rédaction de spécifications techniques
-- Projets automatisme, électriques et instrumentation
-- Supervision industrielle
-- Coordination de projets
+<ul>
+  <li>Études de faisabilité robotique et automatisation d’un système de prélèvement de palettes en milieu pyrotechnique.</li>
+  <li>Rédaction de spécifications techniques.</li>
+  <li>Projets en automatisme, électricité et instrumentation.</li>
+  <li>Supervision industrielle.</li>
+  <li>Coordination de projets.</li>
+</ul>
 
----
+<hr>
 
-<h2> 👁️ Robotique Industrielle & Vision</h2>
+<h3>
+  <img src="Im/icons/robotique.svg"
+       alt=""
+       width="22"
+       height="22"
+       style="vertical-align:middle; margin-right:8px;">
+  Robotique industrielle &amp; vision
+</h3>
 
 <table>
 <tr>
@@ -118,18 +134,18 @@ Missions principales :
 <p>Application industrielle de prise et dépose utilisant :</p>
 
 <ul>
-  <li>Robot Stäubli TX2-40</li>
-  <li>Caméra SensoPart</li>
+  <li>Robot Stäubli TX2-40.</li>
+  <li>Caméra SensoPart.</li>
 </ul>
 
 <p>Principaux éléments étudiés :</p>
 
 <ul>
-  <li>Calibration caméra</li>
-  <li>Détection d'objet</li>
-  <li>Intégration robot-vision</li>
-  <li>Prise et dépose automatisée (<em>Pick &amp; Place</em>)</li>
-  <li>Transformation de coordonnées</li>
+  <li>Calibration caméra.</li>
+  <li>Détection d’objet.</li>
+  <li>Intégration robot-vision.</li>
+  <li>Prise et dépose automatisée (<em>Pick &amp; Place</em>).</li>
+  <li>Transformation de coordonnées.</li>
 </ul>
 
 </td>
@@ -147,7 +163,14 @@ Missions principales :
 
 <hr>
 
-<h2>🤖 Robotique collaborative</h2>
+<h3>
+  <img src="Im/icons/collaboratif.svg"
+       alt=""
+       width="22"
+       height="22"
+       style="vertical-align:middle; margin-right:8px;">
+  Robotique collaborative
+</h3>
 
 <table>
 <tr>
@@ -155,15 +178,16 @@ Missions principales :
 
 <p><strong>Syensqo</strong></p>
 
-<p>Développement d’une plateforme robotisée automatisée de préparation d’échantillons (cobot UR3e).</p>
+<p>Développement d’une plateforme robotisée automatisée de préparation d’échantillons avec un cobot UR3e.</p>
 
 <p>Missions principales :</p>
 
 <ul>
-  <li>Robotique collaborative</li>
-  <li>Programmation robot UR3</li>
-  <li>Conception sous SolidWorks de pièces de fixation des instruments (balance, vortex, pipette) pour la reproductibilité des trajectoires et programmation du robot en Python POO</li>
-  <li>Automatisation de procédés en laboratoire</li>
+  <li>Robotique collaborative.</li>
+  <li>Programmation du robot UR3.</li>
+  <li>Conception sous SolidWorks de pièces de fixation pour les instruments : balance, vortex et pipette.</li>
+  <li>Programmation du robot en Python orienté objet.</li>
+  <li>Automatisation de procédés en laboratoire.</li>
 </ul>
 
 </td>
@@ -181,54 +205,91 @@ Missions principales :
 
 <hr>
 
-<h2>🧠 Intelligence artificielle & optimisation industrielle</h2>
+<h3>
+  <img src="Im/icons/optimisation_melanges.svg"
+       alt=""
+       width="22"
+       height="22"
+       style="vertical-align:middle; margin-right:8px;">
+  Intelligence artificielle &amp; optimisation industrielle
+</h3>
 
-<h3>🧬 Optimisation de mélanges industriels par algorithme génétique</h3>
+<h4>Optimisation de mélanges industriels par algorithme génétique</h4>
 
-<p>Développement d’un outil d’aide à la décision pour optimiser l’homogénéisation de lots de matière première en contexte industriel.</p>
+<p>
+  Développement d’un outil d’aide à la décision pour optimiser
+  l’homogénéisation de lots de matière première en contexte industriel.
+</p>
 
-<p>L’objectif est de réduire la dispersion des propriétés physico-chimiques critiques d’un lot en proposant automatiquement les meilleures combinaisons de conteneurs à mélanger.</p>
+<p>
+  L’objectif est de réduire la dispersion des propriétés physico-chimiques
+  critiques d’un lot en proposant automatiquement les meilleures combinaisons
+  de conteneurs à mélanger.
+</p>
 
 <hr>
 
 <h4>Approche</h4>
 
-<p>Le problème est formulé comme une optimisation combinatoire : chaque conteneur est considéré comme un élément de recherche, et chaque combinaison de 4 conteneurs constitue une solution candidate.</p>
+<p>
+  Le problème est formulé comme une optimisation combinatoire : chaque conteneur
+  est considéré comme un élément de recherche, et chaque combinaison de
+  4 conteneurs constitue une solution candidate.
+</p>
 
-<p>L’algorithme fait évoluer une population de 64 solutions sur 100 générations à l’aide de mécanismes de sélection, croisement et mutation, avec une fonction de fitness orientée vers la réduction de l’écart-type sur les propriétés cibles.</p>
+<p>
+  L’algorithme fait évoluer une population de 64 solutions sur 100 générations
+  à l’aide de mécanismes de sélection, croisement et mutation, avec une fonction
+  de fitness orientée vers la réduction de l’écart-type sur les propriétés cibles.
+</p>
 
 <div align="center">
-  <img src="Im/ga_individu_gene.svg" alt="Modélisation individu/gène" width="95%">
+  <img src="Im/ga_individu_gene.svg"
+       alt="Modélisation individu-gène"
+       width="95%">
 </div>
 
 <hr>
 
 <h4>Processus d’optimisation</h4>
 
-<p>À chaque génération, les solutions sont évaluées puis améliorées jusqu’à atteindre le seuil de dispersion défini, ou jusqu’à l’épuisement du nombre maximal de générations.</p>
+<p>
+  À chaque génération, les solutions sont évaluées puis améliorées jusqu’à
+  atteindre le seuil de dispersion défini, ou jusqu’à l’épuisement du nombre
+  maximal de générations.
+</p>
 
 <div align="center">
-  <img src="Im/ga_boucle_optimisation.svg" alt="Boucle d'optimisation génétique" width="95%">
+  <img src="Im/ga_boucle_optimisation.svg"
+       alt="Boucle d’optimisation génétique"
+       width="95%">
 </div>
 
 <hr>
 
 <h4>Architecture logicielle</h4>
 
-<p>Le moteur d’optimisation, développé avec <strong>PyGAD</strong>, est exposé via une <strong>API FastAPI</strong> et une <strong>interface Gradio</strong> à deux niveaux :</p>
+<p>
+  Le moteur d’optimisation, développé avec <strong>PyGAD</strong>, est exposé
+  via une <strong>API FastAPI</strong> et une <strong>interface Gradio</strong>
+  à deux niveaux :
+</p>
 
 <ul>
   <li>un mode utilisateur simplifié avec paramètres verrouillés ;</li>
   <li>un mode expert permettant d’ajuster les seuils, pondérations et nombre de solutions proposées.</li>
 </ul>
 
-<p>Chaque exécution produit une archive JSON horodatée ainsi qu’un rapport Markdown exploitable par des utilisateurs non techniques.</p>
+<p>
+  Chaque exécution produit une archive JSON horodatée ainsi qu’un rapport
+  Markdown exploitable par des utilisateurs non techniques.
+</p>
 
 <div align="center">
-  <img src="Im/architecture_api.svg" alt="Architecture applicative" width="95%">
+  <img src="Im/architecture_api.svg"
+       alt="Architecture applicative"
+       width="95%">
 </div>
-
-<hr>
 
 <h4>Résultats</h4>
 
