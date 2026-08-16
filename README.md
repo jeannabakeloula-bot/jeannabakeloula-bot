@@ -31,6 +31,8 @@
   Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automatisation industrielle :
 </p>
 
+
+
 <ul>
   <li>
     <img src="Im/icons/robotique.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
