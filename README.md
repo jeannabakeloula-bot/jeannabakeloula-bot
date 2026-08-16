@@ -361,11 +361,7 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 <hr>
 
 <h2>
-  <img src="Im/icons/vision.svg"
-       alt=""
-       width="22"
-       height="22"
-       align="center">
+  <img src="Im/icons/vision.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
   Palettisation sous RobotGuide
 </h2>
 
@@ -393,11 +389,7 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 <hr>
 
 <h2>
-  <img src="Im/icons/automatisation.svg"
-       alt=""
-       width="22"
-       height="22"
-       align="center">
+  <img src="Im/icons/automatisation.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
   Automatisation industrielle
 </h2>
 
@@ -414,22 +406,14 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 <hr>
 
 <h2>
-  <img src="Im/icons/conception.svg"
-       alt=""
-       width="22"
-       height="22"
-       align="center">
+  <img src="Im/icons/conception.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
   Conception mécanique
 </h2>
 
-<h3>
-  <img src="Im/icons/conception.svg"
-       alt=""
-       width="20"
-       height="20"
-       align="center">
+<h2>
+  <img src="Im/icons/conception.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
   Boîtier de commande pour convoyeur Niryo
-</h3>
+</h2>
 
 <p>
   Le projet consiste à intégrer l’ensemble des composants fournis dans un
@@ -452,15 +436,13 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 <ul>
   <li>Modélisation de pièces et d’assemblages sous SolidWorks.</li>
   <li>
-    Intégration mécanique de composants industriels : PCB, bouton d’arrêt
-    d’urgence, potentiomètre, connectique et visserie.
+    Intégration mécanique de composants industriels : PCB, bouton d’arrêt d’urgence, potentiomètre, connectique et visserie.
   </li>
   <li>
     Prise en compte des contraintes d’encombrement, d’ergonomie et d’assemblage.
   </li>
   <li>
-    Réalisation de plans techniques et de modèles destinés à une fabrication
-    en petite série.
+    Réalisation de plans techniques et de modèles destinés à une fabrication en petite série.
   </li>
   <li>Mise en plan technique.</li>
 </ul>
@@ -495,16 +477,10 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 
 <hr>
 
-<h3>
-  <img src="Im/icons/optimisation.svg"
-       alt=""
-       width="20"
-       height="20"
-       align="center">
+<h2>
+  <img src="Im/icons/optimisation_melanges.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
   Bras robotique 6 axes - Modélisation 3D sous SolidWorks
-</h3>
-
-<h3>Bras robotique 6 axes - Modélisation 3D sous SolidWorks</h3>
+</h2>
 
 <table>
 <tr>
@@ -512,14 +488,11 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 <td width="55%" valign="top">
 
 <p>
-  Conception et assemblage virtuel d’un bras robotique 6 axes inspiré de
-  l’architecture d’un robot industriel.
+  Conception et assemblage virtuel d’un bras robotique 6 axes inspiré de l’architecture d’un robot industriel.
 </p>
 
 <p>
-  Le projet couvre la modélisation pièce par pièce du robot, la conception
-  de l’effecteur terminal et l’intégration de l’ensemble dans un assemblage
-  mécanique cohérent sous <strong>SolidWorks</strong>.
+  Le projet couvre la modélisation pièce par pièce du robot, la conception de l’effecteur terminal et l’intégration de l’ensemble dans un assemblage mécanique cohérent sous <strong>SolidWorks</strong>.
 </p>
 
 <p><strong>Compétences mises en œuvre :</strong></p>
