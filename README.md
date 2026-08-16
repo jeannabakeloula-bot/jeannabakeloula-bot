@@ -474,7 +474,7 @@ Le projet consiste à intégrer l'ensemble des composants fournis dans un boîti
 </p>
 
 <p align="center">
-  <a href="LIEN_VERS_TON_PROJET_GITHUB"
+  <a href="CA0/Bras%20robot%206%20axes/README.md"
      target="_blank"
      rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github"
