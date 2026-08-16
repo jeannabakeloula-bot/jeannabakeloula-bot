@@ -33,63 +33,67 @@ Je suis ingénieure en <strong>Systèmes Industriels et Robotique diplômée de 
 Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automatisation industrielle :
 </p>
 
+<div class="about-interests">
+
 <table style="border-collapse: collapse; border: none;">
 
   <tr>
-    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
+    <td>
       <img src="Im/icons/robotique.svg" alt="" width="22" height="22">
     </td>
-    <td style="border: none; padding: 4px 0;">
+    <td>
       Robotique industrielle
     </td>
   </tr>
 
   <tr>
-    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
+    <td>
       <img src="Im/icons/automatisation.svg" alt="" width="22" height="22">
     </td>
-    <td style="border: none; padding: 4px 0;">
+    <td>
       Automatisation &amp; Automates Programmables Industriels (API/PLC)
     </td>
   </tr>
 
   <tr>
-    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
+    <td>
       <img src="Im/icons/vision.svg" alt="" width="22" height="22">
     </td>
-    <td style="border: none; padding: 4px 0;">
+    <td>
       Vision industrielle
     </td>
   </tr>
 
   <tr>
-    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
+    <td>
       <img src="Im/icons/collaboratif.svg" alt="" width="22" height="22">
     </td>
-    <td style="border: none; padding: 4px 0;">
+    <td>
       Robotique collaborative
     </td>
   </tr>
 
   <tr>
-    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
+    <td>
       <img src="Im/icons/conception.svg" alt="" width="22" height="22">
     </td>
-    <td style="border: none; padding: 4px 0;">
+    <td>
       Conception mécanique
     </td>
   </tr>
 
   <tr>
-    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
+    <td>
       <img src="Im/icons/intelligence_artificielle.svg" alt="" width="22" height="22">
     </td>
-    <td style="border: none; padding: 4px 0;">
+    <td>
       Intelligence artificielle appliquée à l'industrie
     </td>
   </tr>
 
 </table>
+
+</div>
 <p style="margin-left: 0;">
 J'aime transformer des concepts d'ingénierie en solutions industrielles concrètes, fiables et performantes.
 </p>
