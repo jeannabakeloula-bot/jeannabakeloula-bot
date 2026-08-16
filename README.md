@@ -28,34 +28,38 @@
 </p>
 
 <p>
-  Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automatisation industrielle :
+  Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet
+  d'automatisation industrielle :
 </p>
-
-
 
 <ul>
   <li>
-    <img src="Im/icons/robotique.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
+    <img src="Im/icons/robotique.svg" alt="" width="20" height="20" align="center">
     Robotique industrielle
   </li>
+
   <li>
-    <img src="Im/icons/automatisation.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
+    <img src="Im/icons/automatisation.svg" alt="" width="20" height="20" align="center">
     Automatisation &amp; Automates Programmables Industriels (API/PLC)
   </li>
+
   <li>
-    <img src="Im/icons/vision.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
+    <img src="Im/icons/vision.svg" alt="" width="20" height="20" align="center">
     Vision industrielle
   </li>
+
   <li>
-    <img src="Im/icons/collaboratif.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
+    <img src="Im/icons/collaboratif.svg" alt="" width="20" height="20" align="center">
     Robotique collaborative
   </li>
+
   <li>
-    <img src="Im/icons/conception.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
+    <img src="Im/icons/conception.svg" alt="" width="20" height="20" align="center">
     Conception mécanique
   </li>
+
   <li>
-    <img src="Im/icons/intelligence_artificielle.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
+    <img src="Im/icons/intelligence_artificielle.svg" alt="" width="20" height="20" align="center">
     Intelligence artificielle appliquée à l'industrie
   </li>
 </ul>
