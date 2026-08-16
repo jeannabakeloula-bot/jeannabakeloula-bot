@@ -230,14 +230,11 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 <h4>Optimisation de mélanges industriels par algorithme génétique</h4>
 
 <p>
-  Développement d’un outil d’aide à la décision pour optimiser
-  l’homogénéisation de lots de matière première en contexte industriel.
+  Développement d’un outil d’aide à la décision pour optimiser l’homogénéisation de lots de matière première en contexte industriel.
 </p>
 
 <p>
-  L’objectif est de réduire la dispersion des propriétés physico-chimiques
-  critiques d’un lot en proposant automatiquement les meilleures combinaisons
-  de conteneurs à mélanger.
+  L’objectif est de réduire la dispersion des propriétés physico-chimiques critiques d’un lot en proposant automatiquement les meilleures combinaisons de conteneurs à mélanger.
 </p>
 
 <hr>
@@ -251,9 +248,7 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 </p>
 
 <p>
-  L’algorithme fait évoluer une population de 64 solutions sur 100 générations
-  à l’aide de mécanismes de sélection, croisement et mutation, avec une fonction
-  de fitness orientée vers la réduction de l’écart-type sur les propriétés cibles.
+  L’algorithme fait évoluer une population de 64 solutions sur 100 générations à l’aide de mécanismes de sélection, croisement et mutation, avec une fonction de fitness orientée vers la réduction de l’écart-type sur les propriétés cibles.
 </p>
 
 <div align="center">
@@ -267,9 +262,7 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 <h4>Processus d’optimisation</h4>
 
 <p>
-  À chaque génération, les solutions sont évaluées puis améliorées jusqu’à
-  atteindre le seuil de dispersion défini, ou jusqu’à l’épuisement du nombre
-  maximal de générations.
+  À chaque génération, les solutions sont évaluées puis améliorées jusqu’à atteindre le seuil de dispersion défini, ou jusqu’à l’épuisement du nombre maximal de générations.
 </p>
 
 <div align="center">
@@ -283,9 +276,7 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 <h4>Architecture logicielle</h4>
 
 <p>
-  Le moteur d’optimisation, développé avec <strong>PyGAD</strong>, est exposé
-  via une <strong>API FastAPI</strong> et une <strong>interface Gradio</strong>
-  à deux niveaux :
+  Le moteur d’optimisation, développé avec <strong>PyGAD</strong>, est exposé via une <strong>API FastAPI</strong> et une <strong>interface Gradio</strong> à deux niveaux :
 </p>
 
 <ul>
@@ -294,8 +285,7 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 </ul>
 
 <p>
-  Chaque exécution produit une archive JSON horodatée ainsi qu’un rapport
-  Markdown exploitable par des utilisateurs non techniques.
+  Chaque exécution produit une archive JSON horodatée ainsi qu’un rapport Markdown exploitable par des utilisateurs non techniques.
 </p>
 
 <div align="center">
@@ -442,6 +432,77 @@ Le projet consiste à intégrer l'ensemble des composants fournis dans un boîti
 </div>
 
 </td>
+</tr>
+</table>
+
+<hr>
+
+<h2>🏗️ Conception mécanique</h2>
+
+<h3>Bras robotique 6 axes - Modélisation 3D sous SolidWorks</h3>
+
+<table>
+<tr>
+
+<td width="55%" valign="top">
+
+<p>
+  Conception et assemblage virtuel d’un bras robotique 6 axes inspiré de
+  l’architecture d’un robot industriel.
+</p>
+
+<p>
+  Le projet couvre la modélisation pièce par pièce du robot, la conception
+  de l’effecteur terminal et l’intégration de l’ensemble dans un assemblage
+  mécanique cohérent sous <strong>SolidWorks</strong>.
+</p>
+
+<p><strong>Compétences mises en œuvre :</strong></p>
+
+<ul>
+  <li>Modélisation paramétrique de pièces mécaniques.</li>
+  <li>Conception de géométries complexes et organiques.</li>
+  <li>Assemblage multi-pièces avec contraintes mécaniques.</li>
+  <li>Conception d’une pince comme effecteur terminal.</li>
+  <li>Utilisation de symétries et répétitions pour les géométries circulaires.</li>
+  <li>Organisation d’un projet CAO composé de pièces, assemblages et rendus.</li>
+</ul>
+
+<p><strong>Outils :</strong></p>
+
+<p>
+  SolidWorks · Modélisation paramétrique · Assemblage mécanique ·
+  Conception d’effecteur terminal
+</p>
+
+<p align="center">
+  <a href="LIEN_VERS_TON_PROJET_GITHUB"
+     target="_blank"
+     rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github"
+         alt="Voir le projet sur GitHub">
+  </a>
+</p>
+
+</td>
+
+<td width="45%" valign="top" align="center">
+
+<div align="center">
+
+  <video autoplay loop muted playsinline controls width="95%">
+    <source src="chemin/vers/ta/video_assemblage.mp4" type="video/mp4">
+    Votre navigateur ne supporte pas la vidéo.
+  </video>
+
+  <p>
+    <small><em>Animation de l’assemblage du bras robotique 6 axes</em></small>
+  </p>
+
+</div>
+
+</td>
+
 </tr>
 </table>
 
