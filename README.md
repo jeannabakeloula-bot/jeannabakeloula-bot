@@ -104,7 +104,7 @@ Actuellement, je développe mes compétences à travers des projets personnels a
   Ingénieure Industrie 4.0 — Alternance
 </h3>
 
-<p><strong>Eurenco</strong></p>
+<p><strong>Entreprise - Eurenco</strong></p>
 
 <p>Missions principales :</p>
 
