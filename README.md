@@ -27,66 +27,72 @@
   Je suis ingénieure en <strong>Systèmes Industriels et Robotique diplômée de Polytech</strong>, passionnée par la conception, l'intégration et l'optimisation de systèmes automatisés et robotisés industriels.
 </p>
 
-<p>
-  Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automatisation industrielle:
-</p>
+<div style="margin-left: 0; padding-left: 0;">
 
-<table style="border-collapse: collapse; border: none;">
+  <p>
+    Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet
+    d'automatisation industrielle :
+  </p>
 
-  <tr>
-    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
-      <img src="Im/icons/robotique.svg" alt="" width="22" height="22">
-    </td>
-    <td style="border: none; padding: 4px 0;">
-      Robotique industrielle
-    </td>
-  </tr>
+  <table style="border-collapse: collapse; border: none; margin-left: 0;">
 
-  <tr>
-    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
-      <img src="Im/icons/automatisation.svg" alt="" width="22" height="22">
-    </td>
-    <td style="border: none; padding: 4px 0;">
-      Automatisation &amp; Automates Programmables Industriels (API/PLC)
-    </td>
-  </tr>
+    <tr>
+      <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
+        <img src="Im/icons/robotique.svg" alt="" width="22" height="22">
+      </td>
+      <td style="border: none; padding: 6px 0;">
+        Robotique industrielle
+      </td>
+    </tr>
 
-  <tr>
-    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
-      <img src="Im/icons/vision.svg" alt="" width="22" height="22">
-    </td>
-    <td style="border: none; padding: 4px 0;">
-      Vision industrielle
-    </td>
-  </tr>
+    <tr>
+      <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
+        <img src="Im/icons/automatisation.svg" alt="" width="22" height="22">
+      </td>
+      <td style="border: none; padding: 6px 0;">
+        Automatisation &amp; Automates Programmables Industriels (API/PLC)
+      </td>
+    </tr>
 
-  <tr>
-    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
-      <img src="Im/icons/collaboratif.svg" alt="" width="22" height="22">
-    </td>
-    <td style="border: none; padding: 4px 0;">
-      Robotique collaborative
-    </td>
-  </tr>
+    <tr>
+      <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
+        <img src="Im/icons/vision.svg" alt="" width="22" height="22">
+      </td>
+      <td style="border: none; padding: 6px 0;">
+        Vision industrielle
+      </td>
+    </tr>
 
-  <tr>
-    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
-      <img src="Im/icons/conception.svg" alt="" width="22" height="22">
-    </td>
-    <td style="border: none; padding: 4px 0;">
-      Conception mécanique
-    </td>
-  </tr>
+    <tr>
+      <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
+        <img src="Im/icons/collaboratif.svg" alt="" width="22" height="22">
+      </td>
+      <td style="border: none; padding: 6px 0;">
+        Robotique collaborative
+      </td>
+    </tr>
 
-  <tr>
-    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
-      <img src="Im/icons/intelligence_artificielle.svg" alt="" width="22" height="22">
-    </td>
-    <td style="border: none; padding: 4px 0;">
-      Intelligence artificielle appliquée à l'industrie
-    </td>
-  </tr>
-</table>
+    <tr>
+      <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
+        <img src="Im/icons/conception.svg" alt="" width="22" height="22">
+      </td>
+      <td style="border: none; padding: 6px 0;">
+        Conception mécanique
+      </td>
+    </tr>
+
+    <tr>
+      <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
+        <img src="Im/icons/intelligence-artificielle.svg" alt="" width="22" height="22">
+      </td>
+      <td style="border: none; padding: 6px 0;">
+        Intelligence artificielle appliquée à l'industrie
+      </td>
+    </tr>
+
+  </table>
+
+</div>
   
 J'aime transformer des concepts d'ingénierie en solutions industrielles concrètes, fiables et performantes.
 
