@@ -31,7 +31,6 @@
   Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automatisation industrielle:
 </p>
 
-<p>
 <table style="border-collapse: collapse; border: none;">
 
   <tr>
@@ -88,140 +87,12 @@
     </td>
   </tr>
 </table>
-
-<p>
   
 J'aime transformer des concepts d'ingénierie en solutions industrielles concrètes, fiables et performantes.
 
 Actuellement, je développe mes compétences à travers des projets personnels autour de la robotique, de la programmation automate et du développement logiciel industriel.
 
 ---
-
-<h2>
-  <img src="Im/icons/robot.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
-  Robotique industrielle
-</h2>
-
-<h2>
-  <img src="Im/icons/cellule.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
-  Cellule industrielle de dépalettisation
-</h2>
-
-<table>
-<tr>
-<td width="55%" valign="top">
-
-<p>Programmation hors ligne d'une cellule robotisée de dépalettisation réalisée avec <strong>RoboDK</strong>.</p>
-
-<p>Le projet comprend :</p>
-
-<ul>
-  <li>Robot Doosan M1013</li>
-  <li>Rail linéaire (7ème axe)</li>
-  <li>Préhenseur à ventouse</li>
-  <li>Convoyeur industriel</li>
-  <li>Planification de trajectoires</li>
-  <li>Définition du TCP (<em>Tool Center Point</em>)</li>
-  <li>Repères utilisateurs (<em>Reference Frames</em>)</li>
-  <li>Génération de trajectoires sans collision</li>
-</ul>
-
-<p align="center">
-  <a href="https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/Robotique%20Industrielle/Pall%C3%A9tisation/README.md" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github" alt="Voir le projet">
-  </a>
-</p>
-
-</td>
-<td width="45%" valign="top" align="center">
-
-<video autoplay loop muted playsinline controls width="100%">
-  <source src="Robotique Industrielle/Pallétisation/media/gif_projet.mp4" type="video/mp4">
-</video>
-
-</td>
-</tr>
-</table>
-
-<hr>
-
-<h2>👁️ Paletisation sous RobotGuide</h2>
-
-Application industrielle de prise et dépose utilisant :
-
-- Robot Stäubli TX2-40
-- Caméra SensoPart
-
-Principaux éléments étudiés :
-
-- Calibration caméra
-- Détection d'objet
-- Intégration robot-vision
-- Prise et dépose automatisée (*Pick & Place*)
-- Transformation de coordonnées
-
-🎥 Vidéo de démonstration disponible
-
-*(Dépôt GitHub prochainement)*
-
----
-
-<h2>⚙️ Automatisation industrielle</h2>
-
-Projets en cours de développement.
-
-Prochains dépôts :
-
-- Pilotage de convoyeurs
-- Station de remplissage de bouteilles
-- Système de tri automatisé
-- Programmation API/PLC
-- EcoStruxure Machine Expert
-
----
-
-<h2>🏗️ Conception mécanique</h2>
-
-<h3>🎛️ Boîtier de commande pour convoyeur Niryo</h3>
-
-Le projet consiste à intégrer l'ensemble des composants fournis dans un boîtier compact, ergonomique et adapté à une production en série de 500 à 1 000 exemplaires.
-
-<table>
-<tr>
-<td width="55%" valign="center">
-
-<p>Conception mécanique d'un boîtier de commande industriel réalisé avec <strong>SolidWorks</strong>.</p>
-
-<p>Compétences mises en œuvre :</p>
-
-<ul>
-  <li>Modélisation de pièces et d'assemblages sous SolidWorks</li>
-  <li>Intégration mécanique de composants industriels (PCB, bouton d'arrêt d'urgence, potentiomètre, connectique, visserie)</li>
-  <li>Prise en compte de contraintes d'encombrement, d'ergonomie et d'assemblage</li>
-  <li>Réalisation de plans techniques et de modèles destinés à une fabrication en petite série</li>
-  <li>Mise en plan technique</li>
-</ul>
-
-<p align="center">
-  <a href="https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/CA0/Boitier%20de%20contr%C3%B4le/README.md" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github" alt="Voir le projet">
-  </a>
-</p>
-
-</td>
-<td width="45%" valign="top">
-
-<div align="center">
-  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/vue_d'ensemble2.png" alt="Vue d'ensemble" width="65%" />
-  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/Int%C3%A9rieur_du_boitier_1.png" alt="Intérieur du boitier" width="35%" />
-</div>
-
-</td>
-</tr>
-</table>
-
-<hr>
-
 # 💼 Expériences professionnelles
 
 ## 🏭 Ingénieure Industrie 4.0 - Alternance
@@ -375,6 +246,132 @@ Missions principales :
   <li>Développement d’une architecture logicielle modulaire.</li>
   <li>Vulgarisation technique pour un usage opérationnel.</li>
 </ul>
+---
+
+<h2>
+  <img src="Im/icons/robot.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
+  Robotique industrielle
+</h2>
+
+<h2>
+  <img src="Im/icons/cellule.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
+  Cellule industrielle de dépalettisation
+</h2>
+
+<table>
+<tr>
+<td width="55%" valign="top">
+
+<p>Programmation hors ligne d'une cellule robotisée de dépalettisation réalisée avec <strong>RoboDK</strong>.</p>
+
+<p>Le projet comprend :</p>
+
+<ul>
+  <li>Robot Doosan M1013</li>
+  <li>Rail linéaire (7ème axe)</li>
+  <li>Préhenseur à ventouse</li>
+  <li>Convoyeur industriel</li>
+  <li>Planification de trajectoires</li>
+  <li>Définition du TCP (<em>Tool Center Point</em>)</li>
+  <li>Repères utilisateurs (<em>Reference Frames</em>)</li>
+  <li>Génération de trajectoires sans collision</li>
+</ul>
+
+<p align="center">
+  <a href="https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/Robotique%20Industrielle/Pall%C3%A9tisation/README.md" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github" alt="Voir le projet">
+  </a>
+</p>
+
+</td>
+<td width="45%" valign="top" align="center">
+
+<video autoplay loop muted playsinline controls width="100%">
+  <source src="Robotique Industrielle/Pallétisation/media/gif_projet.mp4" type="video/mp4">
+</video>
+
+</td>
+</tr>
+</table>
+
+<hr>
+
+<h2>👁️ Paletisation sous RobotGuide</h2>
+
+Application industrielle de prise et dépose utilisant :
+
+- Robot Stäubli TX2-40
+- Caméra SensoPart
+
+Principaux éléments étudiés :
+
+- Calibration caméra
+- Détection d'objet
+- Intégration robot-vision
+- Prise et dépose automatisée (*Pick & Place*)
+- Transformation de coordonnées
+
+🎥 Vidéo de démonstration disponible
+
+*(Dépôt GitHub prochainement)*
+
+---
+
+<h2>⚙️ Automatisation industrielle</h2>
+
+Projets en cours de développement.
+
+Prochains dépôts :
+
+- Pilotage de convoyeurs
+- Station de remplissage de bouteilles
+- Système de tri automatisé
+- Programmation API/PLC
+- EcoStruxure Machine Expert
+
+---
+
+<h2>🏗️ Conception mécanique</h2>
+
+<h3>🎛️ Boîtier de commande pour convoyeur Niryo</h3>
+
+Le projet consiste à intégrer l'ensemble des composants fournis dans un boîtier compact, ergonomique et adapté à une production en série de 500 à 1 000 exemplaires.
+
+<table>
+<tr>
+<td width="55%" valign="center">
+
+<p>Conception mécanique d'un boîtier de commande industriel réalisé avec <strong>SolidWorks</strong>.</p>
+
+<p>Compétences mises en œuvre :</p>
+
+<ul>
+  <li>Modélisation de pièces et d'assemblages sous SolidWorks</li>
+  <li>Intégration mécanique de composants industriels (PCB, bouton d'arrêt d'urgence, potentiomètre, connectique, visserie)</li>
+  <li>Prise en compte de contraintes d'encombrement, d'ergonomie et d'assemblage</li>
+  <li>Réalisation de plans techniques et de modèles destinés à une fabrication en petite série</li>
+  <li>Mise en plan technique</li>
+</ul>
+
+<p align="center">
+  <a href="https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/CA0/Boitier%20de%20contr%C3%B4le/README.md" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github" alt="Voir le projet">
+  </a>
+</p>
+
+</td>
+<td width="45%" valign="top">
+
+<div align="center">
+  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/vue_d'ensemble2.png" alt="Vue d'ensemble" width="65%" />
+  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/Int%C3%A9rieur_du_boitier_1.png" alt="Intérieur du boitier" width="35%" />
+</div>
+
+</td>
+</tr>
+</table>
+
+<hr>
 
 <h4>🛠️ Compétences techniques</h4>
 
