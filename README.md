@@ -87,9 +87,10 @@
       Intelligence artificielle appliquée à l'industrie
     </td>
   </tr>
-  <p>
-
 </table>
+
+<p>
+  
 J'aime transformer des concepts d'ingénierie en solutions industrielles concrètes, fiables et performantes.
 
 Actuellement, je développe mes compétences à travers des projets personnels autour de la robotique, de la programmation automate et du développement logiciel industriel.
