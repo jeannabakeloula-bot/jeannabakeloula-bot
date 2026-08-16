@@ -23,80 +23,34 @@
 
 <h2>À propos de moi</h2>
 
-<p>
-  Je suis ingénieure en <strong>Systèmes Industriels et Robotique diplômée de Polytech</strong>, passionnée par la conception, l'intégration et l'optimisation de systèmes automatisés et robotisés industriels.
+<div style="margin: 0; padding: 0;">
+
+<p style="margin-left: 0;">
+Je suis ingénieure en <strong>Systèmes Industriels et Robotique diplômée de Polytech</strong>, passionnée par la conception, l'intégration et l'optimisation de systèmes automatisés et robotisés industriels.
 </p>
 
-<div style="margin-left: 0; padding-left: 0;">
+<p style="margin-left: 0;">
+Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automatisation industrielle :
+</p>
 
-  <p>
-    Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet
-    d'automatisation industrielle :
-  </p>
+<p style="margin-left: 0;">
+🤖 &nbsp; <strong>Robotique industrielle</strong><br>
+⚙️ &nbsp; <strong>Automatisation &amp; Automates Programmables Industriels (API/PLC)</strong><br>
+👁️ &nbsp; <strong>Vision industrielle</strong><br>
+🤝 &nbsp; <strong>Robotique collaborative</strong><br>
+🔧 &nbsp; <strong>Conception mécanique</strong><br>
+🧠 &nbsp; <strong>Intelligence artificielle appliquée à l'industrie</strong>
+</p>
 
-  <table style="border-collapse: collapse; border: none; margin-left: 0;">
-
-    <tr>
-      <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
-        <img src="Im/icons/robotique.svg" alt="" width="22" height="22">
-      </td>
-      <td style="border: none; padding: 6px 0;">
-        Robotique industrielle
-      </td>
-    </tr>
-
-    <tr>
-      <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
-        <img src="Im/icons/automatisation.svg" alt="" width="22" height="22">
-      </td>
-      <td style="border: none; padding: 6px 0;">
-        Automatisation &amp; Automates Programmables Industriels (API/PLC)
-      </td>
-    </tr>
-
-    <tr>
-      <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
-        <img src="Im/icons/vision.svg" alt="" width="22" height="22">
-      </td>
-      <td style="border: none; padding: 6px 0;">
-        Vision industrielle
-      </td>
-    </tr>
-
-    <tr>
-      <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
-        <img src="Im/icons/collaboratif.svg" alt="" width="22" height="22">
-      </td>
-      <td style="border: none; padding: 6px 0;">
-        Robotique collaborative
-      </td>
-    </tr>
-
-    <tr>
-      <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
-        <img src="Im/icons/conception.svg" alt="" width="22" height="22">
-      </td>
-      <td style="border: none; padding: 6px 0;">
-        Conception mécanique
-      </td>
-    </tr>
-
-    <tr>
-      <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
-        <img src="Im/icons/intelligence_artificielle.svg" alt="" width="22" height="22">
-      </td>
-      <td style="border: none; padding: 6px 0;">
-        Intelligence artificielle appliquée à l'industrie
-      </td>
-    </tr>
-
-  </table>
-  
-</div>
-  
+<p style="margin-left: 0;">
 J'aime transformer des concepts d'ingénierie en solutions industrielles concrètes, fiables et performantes.
+</p>
 
+<p style="margin-left: 0;">
 Actuellement, je développe mes compétences à travers des projets personnels autour de la robotique, de la programmation automate et du développement logiciel industriel.
+</p>
+
+</div>
 
 ---
 <h2>Expériences professionnelles</h2>
