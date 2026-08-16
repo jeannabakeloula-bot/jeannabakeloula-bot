@@ -31,6 +31,7 @@
   Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automatisation industrielle:
 </p>
 
+<p>
 <table style="border-collapse: collapse; border: none;">
 
   <tr>
@@ -86,6 +87,7 @@
       Intelligence artificielle appliquée à l'industrie
     </td>
   </tr>
+  <p>
 
 </table>
 J'aime transformer des concepts d'ingénierie en solutions industrielles concrètes, fiables et performantes.
