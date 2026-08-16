@@ -28,42 +28,66 @@
 </p>
 
 <p>
-  Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet
-  d'automatisation industrielle :
+  Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automatisation industrielle:
 </p>
 
-<ul>
-  <li>
-    <img src="Im/icons/robotique.svg" alt="" width="20" height="20" align="center">
-    Robotique industrielle
-  </li>
+<table style="border-collapse: collapse; border: none;">
 
-  <li>
-    <img src="Im/icons/automatisation.svg" alt="" width="20" height="20" align="center">
-    Automatisation &amp; Automates Programmables Industriels (API/PLC)
-  </li>
+  <tr>
+    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
+      <img src="Im/icons/robotique.svg" alt="" width="22" height="22">
+    </td>
+    <td style="border: none; padding: 4px 0;">
+      Robotique industrielle
+    </td>
+  </tr>
 
-  <li>
-    <img src="Im/icons/vision.svg" alt="" width="20" height="20" align="center">
-    Vision industrielle
-  </li>
+  <tr>
+    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
+      <img src="Im/icons/automatisation.svg" alt="" width="22" height="22">
+    </td>
+    <td style="border: none; padding: 4px 0;">
+      Automatisation &amp; Automates Programmables Industriels (API/PLC)
+    </td>
+  </tr>
 
-  <li>
-    <img src="Im/icons/collaboratif.svg" alt="" width="20" height="20" align="center">
-    Robotique collaborative
-  </li>
+  <tr>
+    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
+      <img src="Im/icons/vision.svg" alt="" width="22" height="22">
+    </td>
+    <td style="border: none; padding: 4px 0;">
+      Vision industrielle
+    </td>
+  </tr>
 
-  <li>
-    <img src="Im/icons/conception.svg" alt="" width="20" height="20" align="center">
-    Conception mécanique
-  </li>
+  <tr>
+    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
+      <img src="Im/icons/collaboratif.svg" alt="" width="22" height="22">
+    </td>
+    <td style="border: none; padding: 4px 0;">
+      Robotique collaborative
+    </td>
+  </tr>
 
-  <li>
-    <img src="Im/icons/intelligence_artificielle.svg" alt="" width="20" height="20" align="center">
-    Intelligence artificielle appliquée à l'industrie
-  </li>
-</ul>
+  <tr>
+    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
+      <img src="Im/icons/conception.svg" alt="" width="22" height="22">
+    </td>
+    <td style="border: none; padding: 4px 0;">
+      Conception mécanique
+    </td>
+  </tr>
 
+  <tr>
+    <td width="32" style="border: none; padding: 4px 10px 4px 0;">
+      <img src="Im/icons/intelligence_artificielle.svg" alt="" width="22" height="22">
+    </td>
+    <td style="border: none; padding: 4px 0;">
+      Intelligence artificielle appliquée à l'industrie
+    </td>
+  </tr>
+
+</table>
 J'aime transformer des concepts d'ingénierie en solutions industrielles concrètes, fiables et performantes.
 
 Actuellement, je développe mes compétences à travers des projets personnels autour de la robotique, de la programmation automate et du développement logiciel industriel.
