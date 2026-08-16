@@ -491,7 +491,8 @@ Le projet consiste à intégrer l'ensemble des composants fournis dans un boîti
 <div align="center">
 
   <video autoplay loop muted playsinline controls width="95%">
-    <source src="CA0/Bras%20robot%206%20axes/renders/Presentation_%20Assemblage_Bras%20Robot.mp4"
+    <source src="CA0/Bras%20robot%206%20axes/renders/Presentation_%20Assemblage_Bras%20Robot.mp4" 
+      type="video/mp4">
     Votre navigateur ne supporte pas la vidéo.
   </video>
 
