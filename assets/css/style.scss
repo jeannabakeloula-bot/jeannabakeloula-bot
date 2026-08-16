@@ -30,3 +30,43 @@ tr {
 td {
   vertical-align: middle;
 }
+/* Alignement de la section À propos de moi */
+.about-interests {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.about-interests table {
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-collapse: collapse !important;
+  border: none !important;
+}
+
+.about-interests tr,
+.about-interests td {
+  border: none !important;
+  background: transparent !important;
+}
+
+.about-interests td:first-child {
+  width: 42px !important;
+  min-width: 42px !important;
+  padding: 5px 12px 5px 0 !important;
+  text-align: left !important;
+  vertical-align: middle !important;
+}
+
+.about-interests td:last-child {
+  padding: 5px 0 !important;
+  text-align: left !important;
+  vertical-align: middle !important;
+}
+
+.about-interests img {
+  display: block !important;
+  width: 22px !important;
+  height: 22px !important;
+  margin: 0 !important;
+}
