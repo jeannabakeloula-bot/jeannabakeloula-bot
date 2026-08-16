@@ -360,82 +360,149 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 
 <hr>
 
-<h2>👁️ Paletisation sous RobotGuide</h2>
+<h2>
+  <img src="Im/icons/vision.svg"
+       alt=""
+       width="22"
+       height="22"
+       align="center">
+  Palettisation sous RobotGuide
+</h2>
 
-Application industrielle de prise et dépose utilisant :
+<p>
+  Application industrielle de prise et dépose développée autour d’un robot
+  <strong>Stäubli TX2-40</strong> et d’une caméra <strong>SensoPart</strong>.
+</p>
 
-- Robot Stäubli TX2-40
-- Caméra SensoPart
+<ul>
+  <li>Calibration caméra</li>
+  <li>Détection d’objet</li>
+  <li>Intégration robot-vision</li>
+  <li>Prise et dépose automatisée (<em>Pick &amp; Place</em>)</li>
+  <li>Transformation de coordonnées</li>
+</ul>
 
-Principaux éléments étudiés :
+<p>
+  <strong>Vidéo de démonstration disponible.</strong>
+</p>
 
-- Calibration caméra
-- Détection d'objet
-- Intégration robot-vision
-- Prise et dépose automatisée (*Pick & Place*)
-- Transformation de coordonnées
+<p>
+  <em>Dépôt GitHub prochainement.</em>
+</p>
 
-🎥 Vidéo de démonstration disponible
+<hr>
 
-*(Dépôt GitHub prochainement)*
+<h2>
+  <img src="Im/icons/automatisation.svg"
+       alt=""
+       width="22"
+       height="22"
+       align="center">
+  Automatisation industrielle
+</h2>
 
----
+<p>Projets en cours de développement :</p>
 
-<h2>⚙️ Automatisation industrielle</h2>
+<ul>
+  <li>Pilotage de convoyeurs</li>
+  <li>Station de remplissage de bouteilles</li>
+  <li>Système de tri automatisé</li>
+  <li>Programmation API/PLC</li>
+  <li>EcoStruxure Machine Expert</li>
+</ul>
 
-Projets en cours de développement.
+<hr>
 
-Prochains dépôts :
+<h2>
+  <img src="Im/icons/conception.svg"
+       alt=""
+       width="22"
+       height="22"
+       align="center">
+  Conception mécanique
+</h2>
 
-- Pilotage de convoyeurs
-- Station de remplissage de bouteilles
-- Système de tri automatisé
-- Programmation API/PLC
-- EcoStruxure Machine Expert
+<h3>
+  <img src="Im/icons/conception.svg"
+       alt=""
+       width="20"
+       height="20"
+       align="center">
+  Boîtier de commande pour convoyeur Niryo
+</h3>
 
----
-
-<h2>🏗️ Conception mécanique</h2>
-
-<h3>🎛️ Boîtier de commande pour convoyeur Niryo</h3>
-
-Le projet consiste à intégrer l'ensemble des composants fournis dans un boîtier compact, ergonomique et adapté à une production en série de 500 à 1 000 exemplaires.
+<p>
+  Le projet consiste à intégrer l’ensemble des composants fournis dans un
+  boîtier compact, ergonomique et adapté à une production en série de
+  500 à 1 000 exemplaires.
+</p>
 
 <table>
 <tr>
-<td width="55%" valign="center">
 
-<p>Conception mécanique d'un boîtier de commande industriel réalisé avec <strong>SolidWorks</strong>.</p>
+<td width="55%" valign="top">
 
-<p>Compétences mises en œuvre :</p>
+<p>
+  Conception mécanique d’un boîtier de commande industriel réalisé avec
+  <strong>SolidWorks</strong>.
+</p>
+
+<p><strong>Compétences mises en œuvre :</strong></p>
 
 <ul>
-  <li>Modélisation de pièces et d'assemblages sous SolidWorks</li>
-  <li>Intégration mécanique de composants industriels (PCB, bouton d'arrêt d'urgence, potentiomètre, connectique, visserie)</li>
-  <li>Prise en compte de contraintes d'encombrement, d'ergonomie et d'assemblage</li>
-  <li>Réalisation de plans techniques et de modèles destinés à une fabrication en petite série</li>
-  <li>Mise en plan technique</li>
+  <li>Modélisation de pièces et d’assemblages sous SolidWorks.</li>
+  <li>
+    Intégration mécanique de composants industriels : PCB, bouton d’arrêt
+    d’urgence, potentiomètre, connectique et visserie.
+  </li>
+  <li>
+    Prise en compte des contraintes d’encombrement, d’ergonomie et d’assemblage.
+  </li>
+  <li>
+    Réalisation de plans techniques et de modèles destinés à une fabrication
+    en petite série.
+  </li>
+  <li>Mise en plan technique.</li>
 </ul>
 
 <p align="center">
-  <a href="https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/CA0/Boitier%20de%20contr%C3%B4le/README.md" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github" alt="Voir le projet">
+  <a href="https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/CA0/Boitier%20de%20contr%C3%B4le/README.md"
+     target="_blank"
+     rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github"
+         alt="Voir le projet">
   </a>
 </p>
 
 </td>
+
 <td width="45%" valign="top">
 
 <div align="center">
-  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/vue_d'ensemble2.png" alt="Vue d'ensemble" width="65%" />
-  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/Int%C3%A9rieur_du_boitier_1.png" alt="Intérieur du boitier" width="35%" />
+  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/vue_d'ensemble2.png"
+       alt="Vue d’ensemble du boîtier"
+       width="65%">
+
+  <img src="CA0/Boitier%20de%20contr%C3%B4le/exports/renders/Int%C3%A9rieur_du_boitier_1.png"
+       alt="Vue intérieure du boîtier"
+       width="35%">
 </div>
 
 </td>
+
 </tr>
 </table>
 
 <hr>
+
+<h3>
+  <img src="Im/icons/optimisation.svg"
+       alt=""
+       width="20"
+       height="20"
+       align="center">
+  Bras robotique 6 axes - Modélisation 3D sous SolidWorks
+</h3>
 
 <h3>Bras robotique 6 axes - Modélisation 3D sous SolidWorks</h3>
 
@@ -502,6 +569,7 @@ Le projet consiste à intégrer l'ensemble des composants fournis dans un boîti
 </table>
 
 <hr>
+
 
 <h4>🛠️ Compétences techniques</h4>
 
