@@ -21,26 +21,46 @@
 
 </div>
 
----
+<h2>À propos de moi</h2>
 
-# À propos de moi
+<p>
+  Je suis ingénieure en <strong>Systèmes Industriels et Robotique diplômée de Polytech</strong>, passionnée par la conception, l'intégration et l'optimisation de systèmes automatisés et robotisés industriels.
+</p>
 
-Je suis ingénieure en **Systèmes Industriels et Robotique diplômée de Polytech**, passionnée par la conception, l'intégration et l'optimisation de systèmes automatisés et robotisés industriels.
+<p>
+  Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automatisation industrielle :
+</p>
 
-Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automatisation industrielle :
-
-- 🤖 Robotique industrielle
-- ⚙️ Automatisation & Automates Programmables Industriels (API/PLC)
-- 👁️ Vision industrielle
-- 🤝 Robotique collaborative
-- 🏗️ Conception mécanique
-- 🧠 Intelligence artificielle appliquée à l'industrie
+<ul>
+  <li>
+    <img src="Im/icons/robotique.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
+    Robotique industrielle
+  </li>
+  <li>
+    <img src="Im/icons/automatisation.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
+    Automatisation &amp; Automates Programmables Industriels (API/PLC)
+  </li>
+  <li>
+    <img src="Im/icons/vision.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
+    Vision industrielle
+  </li>
+  <li>
+    <img src="Im/icons/collaboratif.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
+    Robotique collaborative
+  </li>
+  <li>
+    <img src="Im/icons/conception.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
+    Conception mécanique
+  </li>
+  <li>
+    <img src="Im/icons/intelligence_artificielle.svg" alt="" width="20" style="vertical-align:middle; margin-right:8px;">
+    Intelligence artificielle appliquée à l'industrie
+  </li>
+</ul>
 
 J'aime transformer des concepts d'ingénierie en solutions industrielles concrètes, fiables et performantes.
 
 Actuellement, je développe mes compétences à travers des projets personnels autour de la robotique, de la programmation automate et du développement logiciel industriel.
-
----
 
 <h2>
   <img src="Im/icons/robot.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
