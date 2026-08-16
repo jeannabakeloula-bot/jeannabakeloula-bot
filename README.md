@@ -474,11 +474,8 @@ Le projet consiste à intégrer l'ensemble des composants fournis dans un boîti
 </p>
 
 <p align="center">
-  <a href="CA0/Bras%20robot%206%20axes/README.md"
-     target="_blank"
-     rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github"
-         alt="Voir le projet sur GitHub">
+  <a href="https://github.com/jeannabakeloula-bot/jeannabakeloula-bot/blob/main/CA0/Bras%20robot%206%20axes/README.md" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Voir%20le%20projet-GitHub-181717?logo=github" alt="Voir le projet">
   </a>
 </p>
 
