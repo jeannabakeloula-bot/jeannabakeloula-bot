@@ -109,11 +109,12 @@ Actuellement, je développe mes compétences à travers des projets personnels a
 <p>Missions principales :</p>
 
 <ul>
-  <li>Études de faisabilité robotique et automatisation d’un système de prélèvement de palettes en milieu pyrotechnique.</li>
-  <li>Rédaction de spécifications techniques.</li>
-  <li>Projets en automatisme, électricité et instrumentation.</li>
-  <li>Supervision industrielle.</li>
-  <li>Coordination de projets.</li>
+  <li>Étude de faisabilité d’un système robotisé de prélèvement de palettes en environnement pyrotechnique.</li>
+  <li>Rédaction de cahiers des charges et de spécifications techniques.</li>
+  <li>Suivi et coordination de travaux en Électricité, Instrumentation et Automatisme (EIA).</li>
+  <li>Suivi du développement et du déploiement d’une application de supervision de production.</li>
+  <li>Suivi des interfaces entre les différents lots techniques et coordination avec les entreprises intervenantes.</li>
+  <li>Réalisation de chiffrages techniques et étude de faisabilité de modifications d’installations.</li>
 </ul>
 
 <hr>
