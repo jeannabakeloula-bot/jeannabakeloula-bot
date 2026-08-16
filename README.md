@@ -83,7 +83,7 @@
 
     <tr>
       <td style="border: none; width: 42px; padding: 6px 14px 6px 0;">
-        <img src="Im/icons/intelligence-artificielle.svg" alt="" width="22" height="22">
+        <img src="Im/icons/intelligence_artificielle.svg" alt="" width="22" height="22">
       </td>
       <td style="border: none; padding: 6px 0;">
         Intelligence artificielle appliquée à l'industrie
@@ -91,7 +91,7 @@
     </tr>
 
   </table>
-
+  
 </div>
   
 J'aime transformer des concepts d'ingénierie en solutions industrielles concrètes, fiables et performantes.
