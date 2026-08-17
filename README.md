@@ -375,15 +375,15 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 
 <ul>
   <li>
-    Convoyeur1 à distribution palettes : convoie les palettes vides jusqu'en bout de ligne.
+    Distribution palettes : un convoyeur envoie les palettes vides jusqu'en bout de ligne.
   </li>
 
   <li>
-    Convoyeur2 de gerbage (fixe temporairement) : le robot y dépose la palette prélevée sur le convoyeur 1 ; ce convoyeur reste immobile le temps du remplissage, puis évacue la palette pleine une fois le cycle terminé.
+    Poste de gerbage (convoyeur temporairement fixe) : le robot y dépose la palette prélevée sur le convoyeur 1 ; ce convoyeur reste immobile le temps du remplissage, puis évacue la palette pleine une fois le cycle terminé.
   </li>
 
   <li>
-    Convoyeur3 d'alimentation en cartons: envoie en continu les cartons à palettiser, prélevés par le robot en mouvement (line tracking) puis empilés sur la palette du convoyeur 2.
+    Alimentation en cartons: un dernier convoyeur envoie en continu les cartons à palettiser, prélevés par le robot en mouvement (line tracking) puis empilés sur la palette du convoyeur 2.
   </li>
 
 <p>
