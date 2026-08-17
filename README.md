@@ -624,48 +624,59 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
     <span class="skill-box">Robotique guidée par vision</span>
   </div>
 </div>
----
 
-# 🎓 Formation
+<hr>
 
-🎓 **Diplôme d'ingénieure**
+<h2>🎓 Formation</h2>
 
-Spécialité :
+<h2>🎓 Diplôme d'ingénieure</h2>
 
-**Systèmes Industriels & Robotique**
+<p>
+  <strong>Spécialité :</strong><br>
+  Systèmes Industriels &amp; Robotique
+</p>
 
-🏫 Polytech
+<p>
+  <strong>Établissement :</strong><br>
+  🏫 Polytech
+</p>
 
----
 
-# 📚 Compétences actuellement développées
+<h2>📚 Compétences actuellement développées</h2>
 
-- Programmation API Schneider
-- Navigation ROS 2
-- Robotique mobile
-- Architecture logicielle industrielle
+<ul>
+  <li>Programmation API Schneider</li>
+  <li>Navigation ROS 2</li>
+  <li>Robotique mobile</li>
+  <li>Architecture logicielle industrielle</li>
+</ul>
 
----
+<h2>💡 Ma vision de l’ingénierie</h2>
 
-# 💡 Ma vision de l'ingénierie
+<p>
+  Pour moi, la robotique industrielle ne se limite pas à programmer un robot.
+</p>
 
-Pour moi, la robotique industrielle ne se limite pas à programmer un robot.
+<p>
+  Un système robotisé performant est le résultat de l’intégration de plusieurs
+  expertises complémentaires :
+</p>
 
-Un système robotisé performant est le résultat de l'intégration de plusieurs expertises :
+<ul>
+  <li>✔ Conception mécanique</li>
+  <li>✔ Automatisation</li>
+  <li>✔ Programmation robotique</li>
+  <li>✔ Vision industrielle</li>
+  <li>✔ Développement logiciel</li>
+  <li>✔ Sécurité machine</li>
+  <li>✔ Intégration industrielle</li>
+</ul>
 
-✔ Conception mécanique  
-✔ Automatisation  
-✔ Programmation robotique  
-✔ Vision industrielle  
-✔ Développement logiciel  
-✔ Sécurité machine  
-✔ Intégration industrielle  
+<p>
+  Cette approche globale guide chacun de mes projets.
+</p>
 
-Cette approche globale guide chacun de mes projets.
-
----
-
-# 📬 Restons connectés
+<h2>📬 Restons connectés</h2>
 
 <p align="center">
   <a href="mailto:jeannabakeloula@gmail.com">
