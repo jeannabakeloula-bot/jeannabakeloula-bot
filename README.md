@@ -377,15 +377,20 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
   <li>
     Distribution palettes : un convoyeur envoie les palettes vides jusqu'en bout de ligne.
   </li>
-
+  
+  <br>
+  
   <li>
     Poste de gerbage (convoyeur temporairement fixe) : le robot y dépose la palette prélevée sur le convoyeur 1 ; ce convoyeur reste immobile le temps du remplissage, puis évacue la palette pleine une fois le cycle terminé.
   </li>
-
+  
+  <br>
+  
   <li>
     Alimentation en cartons: un dernier convoyeur envoie en continu les cartons à palettiser, prélevés par le robot en mouvement (line tracking) puis empilés sur la palette du convoyeur 2.
   </li>
-
+  
+<br>
 <p>
   L'objectif est de simuler un cycle de palettisation réaliste avec synchronisation robot/convoyeur sur les flux mobiles, et gestion d'un poste d'empilage à couches multiples.
 </p>
