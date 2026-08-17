@@ -625,6 +625,8 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
   </div>
 </div>
 
+<hr>
+
 <h2>🎓 Formation</h2>
 
 <h2>🎓 Diplôme d'ingénieure</h2>
