@@ -362,21 +362,44 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 
 <h2>
   <img src="Im/icons/vision.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
-  Palettisation sous RobotGuide
+  Cellule de Palettisation Double Convoyeur avec Line Tracking - FANUC RoboGuide
 </h2>
 
 <p>
-  Application industrielle de prise et dépose développée autour d’un robot
-  <strong>Stäubli TX2-40</strong> et d’une caméra <strong>SensoPart</strong>.
+  Simulation industrielle d’une cellule de prise et dépose synchronisée sur deux convoyeurs mobiles, développée sous <strong>FANUC RoboGuide</strong> avec un robot <strong>FANUC M-410iC/110</strong>.
+</p>
+
+<h3>Description du projet</h3>
+
+<p>
+  Cette cellule reproduit un scénario de production dans lequel le robot doit manipuler des pièces tout en suivant le déplacement des convoyeurs, sansinterrompre le flux de production.
 </p>
 
 <ul>
-  <li>Calibration caméra</li>
-  <li>Détection d’objet</li>
-  <li>Intégration robot-vision</li>
-  <li>Prise et dépose automatisée (<em>Pick &amp; Place</em>)</li>
-  <li>Transformation de coordonnées</li>
+  <li>
+    <strong>Prélèvement synchronisé :</strong> récupération d’une pièce sur le premier convoyeur (<code>conv1</code>) en mouvement.
+  </li>
+
+  <li>
+    <strong>Suivi de convoyeur :</strong> synchronisation de la trajectoire du robot avec la vitesse du convoyeur à l’aide d’un encodeur et de la fonction <em>Line Tracking</em>.
+  </li>
+
+  <li>
+    <strong>Dépose automatisée :</strong> placement de la pièce sur un second convoyeur (<code>conv2</code>) en mouvement.
+  </li>
+
+  <li>
+    <strong>Gestion de l’empilage :</strong> décalage en axe Z paramétrable pour gérer plusieurs niveaux de couches.
+  </li>
 </ul>
+
+<p>
+  L’objectif est de simuler un poste de transfert inter-convoyeurs synchronisé, sans temps mort, tel qu’on peut en retrouver dans des environnements industriels à cadence élevée : agroalimentaire, logistique et conditionnement.
+</p>
+
+<p>
+  <strong>Compétences mobilisées :</strong> simulation robotique · programmation FANUC · Line Tracking · synchronisation robot-convoyeur · palettisation multi-niveaux.
+</p>
 
 <p>
   <strong>Vidéo de démonstration disponible.</strong>
@@ -387,22 +410,6 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 </p>
 
 <hr>
-
-<h2>
-  <img src="Im/icons/automatisation.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
-  Automatisation industrielle
-</h2>
-
-<p>Projets en cours de développement :</p>
-
-<ul>
-  <li>Pilotage de convoyeurs</li>
-  <li>Station de remplissage de bouteilles</li>
-  <li>Système de tri automatisé</li>
-  <li>Programmation API/PLC</li>
-  <li>EcoStruxure Machine Expert</li>
-</ul>
-
 <hr>
 
 <h2>
@@ -416,9 +423,7 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 </h2>
 
 <p>
-  Le projet consiste à intégrer l’ensemble des composants fournis dans un
-  boîtier compact, ergonomique et adapté à une production en série de
-  500 à 1 000 exemplaires.
+  Le projet consiste à intégrer l’ensemble des composants fournis dans un boîtier compact, ergonomique et adapté à une production en série de 500 à 1 000 exemplaires.
 </p>
 
 <table>
@@ -427,8 +432,7 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 <td width="55%" valign="top">
 
 <p>
-  Conception mécanique d’un boîtier de commande industriel réalisé avec
-  <strong>SolidWorks</strong>.
+  Conception mécanique d’un boîtier de commande industriel réalisé avec <strong>SolidWorks</strong>.
 </p>
 
 <p><strong>Compétences mises en œuvre :</strong></p>
