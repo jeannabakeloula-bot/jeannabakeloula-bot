@@ -362,43 +362,36 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 
 <h2>
   <img src="Im/icons/vision.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
-  Cellule de Palettisation Double Convoyeur avec Line Tracking - FANUC RoboGuide
+  Cellule de Palettisation à 3 Convoyeurs avec Line Tracking - FANUC RoboGuide
 </h2>
 
 <p>
-  Simulation industrielle d’une cellule de prise et dépose synchronisée sur deux convoyeurs mobiles, développée sous <strong>FANUC RoboGuide</strong> avec un robot <strong>FANUC M-410iC/110</strong>.
+  Simulation industrielle d'une cellule de palettisation synchronisée sur convoyeurs mobiles, développée sous FANUC RoboGuide avec un robot <strong>FANUC M-410iC/110</strong>.
 </p>
 
-<h3>Description du projet</h3>
-
 <p>
-  Cette cellule reproduit un scénario de production dans lequel le robot doit manipuler des pièces tout en suivant le déplacement des convoyeurs, sansinterrompre le flux de production.
+  Cette cellule reproduit un poste de palettisation complet à trois convoyeurs, avec gestion de deux flux distincts (palettes vides et pièces à empiler) et un poste de gerbage intermédiaire :
 </p>
 
 <ul>
   <li>
-    <strong>Prélèvement synchronisé :</strong> récupération d’une pièce sur le premier convoyeur (<code>conv1</code>) en mouvement.
+    Convoyeur1 à distribution palettes : convoie les palettes vides jusqu'en bout de ligne.
   </li>
 
   <li>
-    <strong>Suivi de convoyeur :</strong> synchronisation de la trajectoire du robot avec la vitesse du convoyeur à l’aide d’un encodeur et de la fonction <em>Line Tracking</em>.
+    Convoyeur2 de gerbage (fixe temporairement) : le robot y dépose la palette prélevée sur le convoyeur 1 ; ce convoyeur reste immobile le temps du remplissage, puis évacue la palette pleine une fois le cycle terminé.
   </li>
 
   <li>
-    <strong>Dépose automatisée :</strong> placement de la pièce sur un second convoyeur (<code>conv2</code>) en mouvement.
+    Convoyeur3 d'alimentation en cartons: envoie en continu les cartons à palettiser, prélevés par le robot en mouvement (line tracking) puis empilés sur la palette du convoyeur 2.
   </li>
-
-  <li>
-    <strong>Gestion de l’empilage :</strong> décalage en axe Z paramétrable pour gérer plusieurs niveaux de couches.
-  </li>
-</ul>
 
 <p>
-  L’objectif est de simuler un poste de transfert inter-convoyeurs synchronisé, sans temps mort, tel qu’on peut en retrouver dans des environnements industriels à cadence élevée : agroalimentaire, logistique et conditionnement.
+  L'objectif est de simuler un cycle de palettisation réaliste avec synchronisation robot/convoyeur sur les flux mobiles, et gestion d'un poste d'empilage à couches multiples.
 </p>
 
 <p>
-  <strong>Compétences mobilisées :</strong> simulation robotique · programmation FANUC · Line Tracking · synchronisation robot-convoyeur · palettisation multi-niveaux.
+  Compétences mobilisées : simulation robotique · programmation FANUC · Line Tracking · synchronisation robot-convoyeur · palettisation multi-niveaux.
 </p>
 
 <p>
@@ -409,7 +402,6 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
   <em>Dépôt GitHub prochainement.</em>
 </p>
 
-<hr>
 <hr>
 
 <h2>
