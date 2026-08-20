@@ -314,15 +314,15 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 
 <h2>Projets Personnels</h2>
 
-<h2>
+<h3>
   <img src="Im/icons/robot.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
   Robotique industrielle
-</h2>
+</h3>
 
-<h2>
+<h3>
   <img src="Im/icons/cellule.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
   Cellule industrielle de dépalettisation
-</h2>
+</h3>
 
 <table>
 <tr>
