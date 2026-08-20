@@ -312,6 +312,8 @@ Mes centres d'intérêt couvrent l'ensemble du cycle de vie d'un projet d'automa
 </ul>
 ---
 
+<h2>Projets Personnels</h2>
+
 <h2>
   <img src="Im/icons/robot.svg" alt="" width="18" style="vertical-align:middle; margin-right:8px;">
   Robotique industrielle
